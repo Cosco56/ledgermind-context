@@ -425,3 +425,21 @@ $mk=Get-Content $m -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 120
 - nowrite_present: True
 - gate_present: False
 <!-- /LM_EOD_20260201 -->
+
+<!-- EOD_CHAIN_KNOWN_GOOD_v1 BEGIN -->
+## EOD Chain Known-Good (EOD_CHAIN_KNOWN_GOOD_v1)
+
+updated_utc: 2026-02-01T18:13:45.1871645Z
+
+onstart_delays:
+- PackUpdate-OnStart: PT2M
+- ReportLatest-OnStart: PT10M
+- UploadKit-OnStart: PT12M
+- GitHubSync-OnStart: PT14M
+
+known_good_sha256:
+- lm-eod.github.sync.ps1: B9AB7B3A6467CB1BA55116BAEC3784AC29B63AC2050F55CD604FFEFA8EFA5C33
+- lm-eod.uploadkit.ps1: E5F78ECE9B8EF35C350AC4501478B24C37B98DF7FA6C9724A60C12E80D347868
+- lm-eod.report.latest.refresh.ps1: 0E8C6C1843FE5343499E629CEA48D91207A57A48F39C2C8519FB77B9F9DE6308
+<!-- EOD_CHAIN_KNOWN_GOOD_v1 END -->
+
