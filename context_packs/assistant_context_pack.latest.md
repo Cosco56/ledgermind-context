@@ -429,7 +429,7 @@ $mk=Get-Content $m -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 120
 <!-- EOD_CHAIN_KNOWN_GOOD_v1 BEGIN -->
 ## EOD Chain Known-Good (EOD_CHAIN_KNOWN_GOOD_v1)
 
-updated_utc: 2026-02-01T20:53:21.5351922Z
+updated_utc: 2026-02-01T21:13:16.6739752Z
 
 onstart_delays:
 - PackUpdate-OnStart: PT2M
@@ -437,11 +437,20 @@ onstart_delays:
 - UploadKit-OnStart: PT12M
 - GitHubSync-OnStart: PT14M
 
+sentinels:
+- \LedgerMind\LM-EOD-Tasks-AuditEnsure-5m
+- \LedgerMind\LM-EOD-Tasks-AuditEnsure-OnStart
+
+nowrite_override:
+- C:\ProgramData\LM\ops\eod\locks\eod_tasks.nowrite
+
 known_good_sha256:
 - lm-eod.github.sync.ps1: B9AB7B3A6467CB1BA55116BAEC3784AC29B63AC2050F55CD604FFEFA8EFA5C33
 - lm-eod.uploadkit.ps1: E3DE0ED50558656CE0D70C1AE479AB42A1146398DA3AD92EEFE641A0C2A5CCA0
 - lm-eod.report.latest.refresh.ps1: 233BC1DE572F61EBDF571F948A92D4F5CC0EBF0251272C98CE9F2D5E35116506
+- lm-eod.tasks.audit.ensure.ps1: 9C28B1456427F0E523DE20E1B5F6FE1DC746CB219BBB85D5CA281F8E772C84F7
 <!-- EOD_CHAIN_KNOWN_GOOD_v1 END -->
+
 
 
 
