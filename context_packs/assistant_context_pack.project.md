@@ -350,3 +350,11 @@ known_good_sha256:
 - nowrite_present: True
 - gate_present: False
 <!-- /LM_EOD_20260204 -->
+
+<!-- LM_EOD_20260206 -->
+### EOD Snapshot — 20260206
+- report: C:\ProgramData\LM\ops\eod\LM-EOD-Report.20260206.md
+  - sha256: AE0FB90925F7E8EFB39AFF1C6B594D4C42D5C5F9306123F867915CBD14594B56
+- nowrite_present: True
+- gate_present: False
+<!-- /LM_EOD_20260206 -->
