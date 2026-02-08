@@ -205,3 +205,11 @@ $mk=Get-Content $m -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 120
 - nowrite_present: True
 - gate_present: False
 <!-- /LM_EOD_20260207 -->
+
+<!-- LM_EOD_20260208 -->
+### EOD Snapshot — 20260208
+- report: C:\ProgramData\LM\ops\eod\LM-EOD-Report.20260208.md
+  - sha256: BD3B08A798F4A36BBFB965ED57C0C8D05C9133FEE73317CDD8F765D9457CE897
+- nowrite_present: True
+- gate_present: False
+<!-- /LM_EOD_20260208 -->
