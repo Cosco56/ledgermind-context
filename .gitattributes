@@ -1,0 +1,8 @@
+# LedgerMind evidence: keep bytes stable (no EOL normalization)
+context_packs/* -text
+
+# Zip always binary
+*.zip -text
+
+# Default (if repo has other files)
+* text=auto
