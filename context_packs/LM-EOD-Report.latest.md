@@ -1,6 +1,6 @@
-# LedgerMind EOD Report (20260211)
+# LedgerMind EOD Report (20260212)
 
-- generated_utc: 2026-02-11T21:55:01.2182096Z
+- generated_utc: 2026-02-12T21:55:02.7034919Z
 - nowrite_present: True
 - gate_present: False
 
@@ -8,7 +8,7 @@
 - C:\ProgramData\LM\ops\autonomy\autonomy_state.latest.json | exists=True | sha256=D843E35917702BD47A473676918963CE55B669A8E409ED47B64AB2555C254697 | lwUtc=2026-02-05T07:24:02.7919010Z | bytes=5149
 - C:\ProgramData\LM\ops\autonomy\autonomy_master.log | exists=True | sha256=9A8784884253BFF00293BC82408A04EFC7A62D3BDF607F0661954D0EC7A64B94 | lwUtc=2026-02-05T07:24:02.8079099Z | bytes=323368
 - C:\ProgramData\LM\tasks\logs\LM-Autonomy-PaperPulse-0905.log | exists=True | sha256=C01F401AA23840B25F1A2873AF80F864B886AF86728EF3E91ECC14428F908EA9 | lwUtc=2026-02-05T07:05:07.0644876Z | bytes=20105
-- C:\ProgramData\LM\tx\exec\locks\tx_exec_truth_gate.nowrite | exists=True | sha256=E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855 | lwUtc=2026-02-03T16:38:05.1466453Z | bytes=0
+- C:\ProgramData\LM\tx\exec\locks\tx_exec_truth_gate.nowrite | exists=True | sha256=E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855 | lwUtc=2026-02-12T20:05:34.8737734Z | bytes=0
 
 ## Tasks
 - \LedgerMind\LM-Autonomy-Master-OnStart | status=Disabled | last_run=03/02/2026 09:38:55 | last_result=0 | next_run=N/A
