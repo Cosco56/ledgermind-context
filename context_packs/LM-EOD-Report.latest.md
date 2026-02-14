@@ -1,6 +1,6 @@
-# LedgerMind EOD Report (20260213)
+# LedgerMind EOD Report (20260214)
 
-- generated_utc: 2026-02-13T21:55:02.0949591Z
+- generated_utc: 2026-02-14T21:55:17.3160211Z
 - nowrite_present: True
 - gate_present: False
 
