@@ -245,5 +245,3 @@ $mk=Get-Content $m -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 120
 - nowrite_present: True
 - gate_present: False
 <!-- /LM_EOD_20260212 -->
-<!-- FILESPANEL_TEST 20260214T170616Z -->
-
