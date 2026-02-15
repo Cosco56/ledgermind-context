@@ -1,15 +1,15 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T07:02:02.4270583Z",
+  "ts_utc": "2026-02-15T07:17:02.4561199Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
     "running": true,
-    "pid": 38108,
-    "session": 0,
+    "pid": 35552,
+    "session": 1,
     "title": ""
   },
-  "ibgw_4002_listen": false,
+  "ibgw_4002_listen": true,
   "cpu": {
     "Name": "Intel(R) Core(TM) i7-14700F",
     "NumberOfCores": 20,
@@ -21,7 +21,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164421230592
+      "SizeRemaining": 164400771072
     },
     {
       "DriveLetter": "D",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T07:01:21.5935776Z",
+    "updated_utc": "2026-02-15T07:16:21.8224589Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T07:01:01.8804201Z",
+      "updated_utc": "2026-02-15T07:16:02.2109445Z",
       "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -142,8 +142,8 @@
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-15T08:58:52.8565356+02:00",
-    "generated_utc": "2026-02-15T06:58:52.8571482Z",
+    "generated_at": "2026-02-15T09:16:29.1007763+02:00",
+    "generated_utc": "2026-02-15T07:16:29.1014008Z",
     "business_date": "2026-02-15",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -152,7 +152,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-13.csv",
-      "age_min": 3.796502048333333,
+      "age_min": 21.400495741666667,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T07:01:12.2201564Z",
+    "generated_utc": "2026-02-15T07:16:12.3725795Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T07:01:02.0159544Z",
+    "generated_utc": "2026-02-15T07:16:02.0861894Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -275,7 +275,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-15T06:59:02.7663572Z",
+    "generated_utc": "2026-02-15T07:14:02.776317Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -290,9 +290,9 @@
       "pnl_card_age_min": 0.67,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-15T06:59:02.4703665Z"
+    "refreshed_utc": "2026-02-15T07:14:02.5123723Z"
   },
-  "pnl_card_lwutc": "2026-02-15T06:58:22.5424265Z",
+  "pnl_card_lwutc": "2026-02-15T07:13:22.5611323Z",
   "tasks_running": [
     "LM-ControlRoom-API-AtStartup",
     "LM-CR-GitHubSync-15m",
@@ -302,12 +302,12 @@
   "tasks_fails_24h": [
     {
       "task": "LM-Health-FullAudit-DRBadge-Inject-5m",
-      "lastRunUtc": "2026-02-15T06:58:01.0000000Z",
+      "lastRunUtc": "2026-02-15T07:13:01.0000000Z",
       "rc": 1
     },
     {
       "task": "LM-Ops-ObservabilitySmoke-5m",
-      "lastRunUtc": "2026-02-15T06:57:57.0000000Z",
+      "lastRunUtc": "2026-02-15T07:12:57.0000000Z",
       "rc": 1
     },
     {
