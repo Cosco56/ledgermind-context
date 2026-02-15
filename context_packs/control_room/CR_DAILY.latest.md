@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T06:13:04.2607156Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T06:17:02.4028980Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False (pid=40428 session=0)
+- IBGW_RUNNING=True 4002_LISTEN=False (pid=25688 session=0)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=17.1895059916667 miss=0
+- PRICES: ok=True ageMin=18.7904956083333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -24,8 +24,8 @@
 ### Tasks
 - RunningCount=4
 - Fails24hCount=4
+  - FAIL task=LM-IBGW-PortWatchdog-1m rc=2147946720 lastRunUtc=2026-02-15T06:17:01.0000000Z
   - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T06:13:01.0000000Z
-  - FAIL task=LM-IBGW-PortWatchdog-1m rc=2147946720 lastRunUtc=2026-02-15T06:13:01.0000000Z
   - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-02-15T06:12:57.0000000Z
   - FAIL task=LM-Health-FullAudit-RetentionPrune-Daily rc=64 lastRunUtc=2026-02-15T05:55:29.0000000Z
 
