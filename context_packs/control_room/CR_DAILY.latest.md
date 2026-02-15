@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:19:13.4252134Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:25:40.9687998Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=23.7971181533333 miss=0
+- PRICES: ok=True ageMin=0.01124321 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -18,13 +18,12 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=153 freePct=16.4 label=
-- D: freeGB=870.9 freePct=93.9 label=DATA
+- D: freeGB=867.9 freePct=93.6 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=1
-  - FAIL task=LM-IBGW-SessionGuard-5m rc=1 lastRunUtc=2026-02-15T09:19:06.0000000Z
+- Fails24hCount=0
 
 ### Notes (manual)
 # NOTES
@@ -46,4 +45,8 @@
 - LM_CHAT_CONTEXT_BUNDLE.latest.md נוצר אוטומטית + Copy-to-Clipboard + פתיחת Explorer לגרירה.
 - Hardening Tasks: MultipleInstancesPolicy=IgnoreNew, ExecutionTimeLimit=PT2H.
 - Note: Files panel בצ'אט לא מתעדכן אוטומטית מ-GitHub; לכן לגרור LM_CHAT_CONTEXT_BUNDLE.latest.md לעדכון מצב.
+
+## Session Summary (imported) — 2026-02-15
+
+(הדבק כאן את הסיכום מההודעה שלי למעלה — או תשאיר כמו שזה אם אתה מעדיף מינימלי)
 
