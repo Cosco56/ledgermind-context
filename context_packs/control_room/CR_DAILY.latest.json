@@ -1,11 +1,11 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T06:32:02.5923899Z",
+  "ts_utc": "2026-02-15T06:47:02.5809745Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
     "running": true,
-    "pid": 29292,
+    "pid": 33360,
     "session": 0,
     "title": ""
   },
@@ -21,7 +21,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164411772928
+      "SizeRemaining": 164411994112
     },
     {
       "DriveLetter": "D",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T06:31:21.4078615Z",
+    "updated_utc": "2026-02-15T06:46:21.5445826Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T06:31:01.620593Z",
+      "updated_utc": "2026-02-15T06:46:01.8697034Z",
       "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -142,8 +142,8 @@
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-15T08:28:52.9506452+02:00",
-    "generated_utc": "2026-02-15T06:28:52.9512269Z",
+    "generated_at": "2026-02-15T08:43:52.946887+02:00",
+    "generated_utc": "2026-02-15T06:43:52.9475117Z",
     "business_date": "2026-02-15",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -152,7 +152,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-13.csv",
-      "age_min": 3.79046261,
+      "age_min": 18.790348951666665,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T06:32:01.9911669Z",
+    "generated_utc": "2026-02-15T06:47:02.0656105Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T06:31:02.1236271Z",
+    "generated_utc": "2026-02-15T06:46:02.1589713Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -275,7 +275,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-15T06:29:02.633078Z",
+    "generated_utc": "2026-02-15T06:44:03.5312685Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -287,12 +287,12 @@
       "policy_gate": "C:\\ledgermind\\data\\tx\\gates\\tx_micro_policy_gate.latest.json"
     },
     "meta": {
-      "pnl_card_age_min": 0.67,
+      "pnl_card_age_min": 0.68,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-15T06:29:02.3760798Z"
+    "refreshed_utc": "2026-02-15T06:44:03.0294089Z"
   },
-  "pnl_card_lwutc": "2026-02-15T06:28:22.5186628Z",
+  "pnl_card_lwutc": "2026-02-15T06:43:22.5669345Z",
   "tasks_running": [
     "LM-ControlRoom-API-AtStartup",
     "LM-CR-GitHubSync-15m",
@@ -301,18 +301,13 @@
   ],
   "tasks_fails_24h": [
     {
-      "task": "LM-IBGW-PortWatchdog-1m",
-      "lastRunUtc": "2026-02-15T06:32:01.0000000Z",
-      "rc": 2147946720
-    },
-    {
       "task": "LM-Health-FullAudit-DRBadge-Inject-5m",
-      "lastRunUtc": "2026-02-15T06:28:01.0000000Z",
+      "lastRunUtc": "2026-02-15T06:43:01.0000000Z",
       "rc": 1
     },
     {
       "task": "LM-Ops-ObservabilitySmoke-5m",
-      "lastRunUtc": "2026-02-15T06:27:57.0000000Z",
+      "lastRunUtc": "2026-02-15T06:42:59.0000000Z",
       "rc": 1
     },
     {
