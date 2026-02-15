@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T08:44:36.6283735Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T08:47:03.0516531Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -17,12 +17,12 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=153.1 freePct=16.4 label=
-- D: freeGB=894.3 freePct=96.4 label=DATA
+- C: freeGB=153.1 freePct=16.5 label=
+- D: freeGB=893.3 freePct=96.3 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
+- RunningCount=4
 - Fails24hCount=2
   - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T08:43:01.0000000Z
   - FAIL task=LM-Health-FullAudit-RetentionPrune-Daily rc=64 lastRunUtc=2026-02-15T05:55:29.0000000Z
