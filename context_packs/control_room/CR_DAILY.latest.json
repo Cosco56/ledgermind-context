@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T09:10:19.6363095Z",
+  "ts_utc": "2026-02-15T09:11:40.6752560Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,13 +27,13 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164326506496
+      "SizeRemaining": 164323033088
     },
     {
       "DriveLetter": "D",
       "FileSystemLabel": "DATA",
       "Size": 995890298880,
-      "SizeRemaining": 943561900032
+      "SizeRemaining": 942559199232
     },
     {
       "DriveLetter": "E",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T09:10:21.7890881Z",
+    "updated_utc": "2026-02-15T09:11:21.822972Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T09:10:02.3687071Z",
+      "updated_utc": "2026-02-15T09:11:02.4216682Z",
       "age_sec": 19.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T09:10:02.7712702Z",
+    "generated_utc": "2026-02-15T09:11:02.8079449Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T09:06:02.9289401Z",
+    "generated_utc": "2026-02-15T09:11:02.976567Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -297,12 +297,13 @@
     "LM-Backup-SSD-6h-User",
     "LM-ControlRoom-API-AtStartup",
     "LM-CR-GitHubSync-15m",
-    "LM-IBGW-PortWatchdog-1m"
+    "LM-TX-Recon-BrokerSnapshot-1m",
+    "LM-TX-Recon-LedgerSnapshot-1m"
   ],
   "tasks_fails_24h": [
     {
       "task": "LM-IBGW-SessionGuard-5m",
-      "lastRunUtc": "2026-02-15T09:09:01.0000000Z",
+      "lastRunUtc": "2026-02-15T09:11:32.0000000Z",
       "rc": 1
     },
     {

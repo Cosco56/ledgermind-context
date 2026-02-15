@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:10:19.6363095Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:11:40.6752560Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -18,13 +18,13 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=153 freePct=16.4 label=
-- D: freeGB=878.8 freePct=94.7 label=DATA
+- D: freeGB=877.8 freePct=94.6 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=4
+- RunningCount=5
 - Fails24hCount=2
-  - FAIL task=LM-IBGW-SessionGuard-5m rc=1 lastRunUtc=2026-02-15T09:09:01.0000000Z
+  - FAIL task=LM-IBGW-SessionGuard-5m rc=1 lastRunUtc=2026-02-15T09:11:32.0000000Z
   - FAIL task=LM-TX-Micro-LiveReadyGate-5m rc=1 lastRunUtc=2026-02-15T09:09:01.0000000Z
 
 ### Notes (manual)
