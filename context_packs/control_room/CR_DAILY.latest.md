@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:32:02.6116073Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T09:32:56.2736010Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -18,11 +18,11 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=153 freePct=16.4 label=
-- D: freeGB=865.6 freePct=93.3 label=DATA
+- D: freeGB=865.4 freePct=93.3 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=4
+- RunningCount=5
 - Fails24hCount=0
 
 ### Notes (manual)

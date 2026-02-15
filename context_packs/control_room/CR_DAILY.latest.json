@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T09:32:02.6116073Z",
+  "ts_utc": "2026-02-15T09:32:56.2736010Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,13 +27,13 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164314783744
+      "SizeRemaining": 164309811200
     },
     {
       "DriveLetter": "D",
       "FileSystemLabel": "DATA",
       "Size": 995890298880,
-      "SizeRemaining": 929454358528
+      "SizeRemaining": 929179369472
     },
     {
       "DriveLetter": "E",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T09:31:21.8627041Z",
+    "updated_utc": "2026-02-15T09:32:21.8928251Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,8 +133,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T09:31:02.6848237Z",
-      "age_sec": 19.0,
+      "updated_utc": "2026-02-15T09:32:02.1014356Z",
+      "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -296,7 +296,8 @@
   "tasks_running": [
     "LM-Backup-SSD-6h-User",
     "LM-ControlRoom-API-AtStartup",
-    "LM-CR-GitHubSync-15m",
+    "LM-Health-FullAudit-DRBadge-Inject-5m",
+    "LM-TX-Recon-Eval-1m",
     "LM-TX-TruthGate-Eval-Writer-1m"
   ],
   "tasks_fails_24h": null
