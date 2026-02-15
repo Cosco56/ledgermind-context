@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T10:14:31.1503871Z",
+  "ts_utc": "2026-02-15T10:17:02.9577815Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,13 +27,13 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164266651648
+      "SizeRemaining": 164253487104
     },
     {
       "DriveLetter": "D",
       "FileSystemLabel": "DATA",
       "Size": 995890298880,
-      "SizeRemaining": 892965486592
+      "SizeRemaining": 892184035328
     },
     {
       "DriveLetter": "E",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T10:14:22.2149636Z",
+    "updated_utc": "2026-02-15T10:16:22.3032079Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T10:14:01.3328297Z",
+      "updated_utc": "2026-02-15T10:16:01.5373581Z",
       "age_sec": 21.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T10:14:01.7736704Z",
+    "generated_utc": "2026-02-15T10:17:02.0203281Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T10:11:02.3687609Z",
+    "generated_utc": "2026-02-15T10:16:03.0375584Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -296,12 +296,13 @@
   "tasks_running": [
     "LM-Backup-SSD-6h-User",
     "LM-ControlRoom-API-AtStartup",
-    "LM-CR-GitHubSync-15m"
+    "LM-CR-GitHubSync-15m",
+    "LM-TX-TruthGate-Eval-Writer-1m"
   ],
   "tasks_fails_24h": [
     {
       "task": "LM-IBGW-PortWatchdog-1m",
-      "lastRunUtc": "2026-02-15T10:14:01.0000000Z",
+      "lastRunUtc": "2026-02-15T10:17:01.0000000Z",
       "rc": 1
     },
     {

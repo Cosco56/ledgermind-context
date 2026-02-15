@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T10:14:31.1503871Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T10:17:02.9577815Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -18,13 +18,13 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=153 freePct=16.4 label=
-- D: freeGB=831.6 freePct=89.7 label=DATA
+- D: freeGB=830.9 freePct=89.6 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
+- RunningCount=4
 - Fails24hCount=2
-  - FAIL task=LM-IBGW-PortWatchdog-1m rc=1 lastRunUtc=2026-02-15T10:14:01.0000000Z
+  - FAIL task=LM-IBGW-PortWatchdog-1m rc=1 lastRunUtc=2026-02-15T10:17:01.0000000Z
   - FAIL task=LM-Backup-SSD-6h-User rc=2147946720 lastRunUtc=2026-02-15T10:11:46.0000000Z
 
 ### Notes (manual)
