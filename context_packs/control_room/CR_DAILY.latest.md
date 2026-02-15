@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T12:02:01.5336821Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T12:17:01.4294406Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=42572 session=1)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.79335634 miss=0
+- PRICES: ok=True ageMin=18.7927971466667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -18,13 +18,13 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=153 freePct=16.4 label=
-- D: freeGB=805.4 freePct=86.8 label=DATA
+- D: freeGB=790.7 freePct=85.3 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=4
 - Fails24hCount=2
-  - FAIL task=LM-IBGW-PortWatchdog-1m rc=1 lastRunUtc=2026-02-15T12:02:01.0000000Z
+  - FAIL task=LM-IBGW-PortWatchdog-1m rc=1 lastRunUtc=2026-02-15T12:17:01.0000000Z
   - FAIL task=LM-Backup-SSD-6h-User rc=2147946720 lastRunUtc=2026-02-15T10:11:46.0000000Z
 
 ### Notes (manual)
