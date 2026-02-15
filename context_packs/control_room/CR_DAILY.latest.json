@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T13:47:01.6617905Z",
+  "ts_utc": "2026-02-15T14:02:01.5616469Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,13 +27,13 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164235239424
+      "SizeRemaining": 164226887680
     },
     {
       "DriveLetter": "D",
       "FileSystemLabel": "DATA",
       "Size": 995890298880,
-      "SizeRemaining": 822344417280
+      "SizeRemaining": 820383842304
     },
     {
       "DriveLetter": "E",
@@ -50,8 +50,8 @@
   "power_scheme": "Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))",
   "dataq": {
     "schema": "lm.dataq.market.v5",
-    "now_utc": "2026-02-15T13:25:07.066444Z",
-    "now_epoch_sec": 1771161907,
+    "now_utc": "2026-02-15T13:55:07.850169Z",
+    "now_epoch_sec": 1771163707,
     "market_window": "CLOSED",
     "market_open_utc": null,
     "market_close_utc": null,
@@ -72,7 +72,7 @@
       },
       "config": {
         "path": "C:\\ledgermind\\config\\dataq\\market_dataq.config.json",
-        "age_sec": 837243
+        "age_sec": 839044
       }
     },
     "provider": {
@@ -99,7 +99,7 @@
       "window_observed": true,
       "window_max_ts_utc": "2026-02-14T00:59:00Z",
       "window_max_ts_epoch_sec": 1771030740,
-      "window_lag_min_max": 2186.0,
+      "window_lag_min_max": 2216.0,
       "window_lag_gt2m_count": 3
     },
     "lists": {
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T13:46:21.9048276Z",
+    "updated_utc": "2026-02-15T14:01:22.0064664Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T13:46:02.1439937Z",
+      "updated_utc": "2026-02-15T14:01:02.2652722Z",
       "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -142,8 +142,8 @@
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-15T15:43:53.1491825+02:00",
-    "generated_utc": "2026-02-15T13:43:53.1498233Z",
+    "generated_at": "2026-02-15T15:58:53.1725117+02:00",
+    "generated_utc": "2026-02-15T13:58:53.1731225Z",
     "business_date": "2026-02-15",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -152,7 +152,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-13.csv",
-      "age_min": 18.79944378,
+      "age_min": 3.79136769,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T13:47:01.4676124Z",
+    "generated_utc": "2026-02-15T14:02:01.6011143Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T13:46:01.716013Z",
+    "generated_utc": "2026-02-15T14:01:01.6547415Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -275,7 +275,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-15T13:44:02.421144Z",
+    "generated_utc": "2026-02-15T13:59:02.4536943Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -290,9 +290,9 @@
       "pnl_card_age_min": 0.67,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-15T13:44:02.099984Z"
+    "refreshed_utc": "2026-02-15T13:59:02.1356008Z"
   },
-  "pnl_card_lwutc": "2026-02-15T13:43:22.2069724Z",
+  "pnl_card_lwutc": "2026-02-15T13:58:22.2283930Z",
   "tasks_running": [
     "LM-Backup-SSD-6h-User",
     "LM-ControlRoom-API-AtStartup",
@@ -302,7 +302,7 @@
   "tasks_fails_24h": [
     {
       "task": "LM-IBGW-PortWatchdog-1m",
-      "lastRunUtc": "2026-02-15T13:47:01.0000000Z",
+      "lastRunUtc": "2026-02-15T14:02:01.0000000Z",
       "rc": 1
     },
     {
