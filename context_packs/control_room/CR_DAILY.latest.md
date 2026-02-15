@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T06:17:02.4028980Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T06:32:02.5923899Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False (pid=25688 session=0)
+- IBGW_RUNNING=True 4002_LISTEN=False (pid=29292 session=0)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.7904956083333 miss=0
+- PRICES: ok=True ageMin=3.79046261 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -16,7 +16,7 @@
 - Power=Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))
 
 ### Volumes
-- C: freeGB=153.2 freePct=16.5 label=
+- C: freeGB=153.1 freePct=16.5 label=
 - D: freeGB=4 freePct=99.4 label=BIOS
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 - F: freeGB=926.8 freePct=99.9 label=DATA
@@ -24,9 +24,9 @@
 ### Tasks
 - RunningCount=4
 - Fails24hCount=4
-  - FAIL task=LM-IBGW-PortWatchdog-1m rc=2147946720 lastRunUtc=2026-02-15T06:17:01.0000000Z
-  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T06:13:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-02-15T06:12:57.0000000Z
+  - FAIL task=LM-IBGW-PortWatchdog-1m rc=2147946720 lastRunUtc=2026-02-15T06:32:01.0000000Z
+  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T06:28:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-02-15T06:27:57.0000000Z
   - FAIL task=LM-Health-FullAudit-RetentionPrune-Daily rc=64 lastRunUtc=2026-02-15T05:55:29.0000000Z
 
 ### Notes (manual)
