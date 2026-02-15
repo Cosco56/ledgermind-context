@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T07:47:02.4349063Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T08:02:02.4004250Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False (pid=3128 session=1)
+- IBGW_RUNNING=True 4002_LISTEN=False (pid=30448 session=1)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.789229175 miss=0
+- PRICES: ok=True ageMin=3.79065918166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -16,15 +16,16 @@
 - Power=Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))
 
 ### Volumes
-- C: freeGB=153.1 freePct=16.5 label=
+- C: freeGB=153.1 freePct=16.4 label=
 - D: freeGB=4 freePct=99.4 label=BIOS
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 - F: freeGB=926.8 freePct=99.9 label=DATA
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=2
-  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T07:43:01.0000000Z
+- Fails24hCount=3
+  - FAIL task=LM-TX-Micro-CanarySplit-Start-Safe rc=1 lastRunUtc=2026-02-15T08:01:47.0000000Z
+  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T07:58:01.0000000Z
   - FAIL task=LM-Health-FullAudit-RetentionPrune-Daily rc=64 lastRunUtc=2026-02-15T05:55:29.0000000Z
 
 ### Notes (manual)
