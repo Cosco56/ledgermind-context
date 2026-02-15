@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-15T14:17:01.6068314Z",
+  "ts_utc": "2026-02-15T14:32:01.8563762Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,13 +27,13 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 164198830080
+      "SizeRemaining": 164213608448
     },
     {
       "DriveLetter": "D",
       "FileSystemLabel": "DATA",
       "Size": 995890298880,
-      "SizeRemaining": 805191548928
+      "SizeRemaining": 792691998720
     },
     {
       "DriveLetter": "E",
@@ -50,8 +50,8 @@
   "power_scheme": "Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))",
   "dataq": {
     "schema": "lm.dataq.market.v5",
-    "now_utc": "2026-02-15T13:55:07.850169Z",
-    "now_epoch_sec": 1771163707,
+    "now_utc": "2026-02-15T14:25:09.549993Z",
+    "now_epoch_sec": 1771165509,
     "market_window": "CLOSED",
     "market_open_utc": null,
     "market_close_utc": null,
@@ -72,7 +72,7 @@
       },
       "config": {
         "path": "C:\\ledgermind\\config\\dataq\\market_dataq.config.json",
-        "age_sec": 839044
+        "age_sec": 840845
       }
     },
     "provider": {
@@ -99,7 +99,7 @@
       "window_observed": true,
       "window_max_ts_utc": "2026-02-14T00:59:00Z",
       "window_max_ts_epoch_sec": 1771030740,
-      "window_lag_min_max": 2216.0,
+      "window_lag_min_max": 2246.0,
       "window_lag_gt2m_count": 3
     },
     "lists": {
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-15T14:16:22.1101748Z",
+    "updated_utc": "2026-02-15T14:31:22.2694375Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,8 +133,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-15T14:16:02.3699211Z",
-      "age_sec": 20.0,
+      "updated_utc": "2026-02-15T14:31:01.4228524Z",
+      "age_sec": 21.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -142,8 +142,8 @@
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-15T16:13:53.2449377+02:00",
-    "generated_utc": "2026-02-15T14:13:53.2455294Z",
+    "generated_at": "2026-02-15T16:28:54.1305009+02:00",
+    "generated_utc": "2026-02-15T14:28:54.1311087Z",
     "business_date": "2026-02-15",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -152,7 +152,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-13.csv",
-      "age_min": 18.792594511666668,
+      "age_min": 3.7931443233333333,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -178,7 +178,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-15T14:17:01.6731386Z",
+    "generated_utc": "2026-02-15T14:32:02.1442374Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-15T14:16:01.5740852Z",
+    "generated_utc": "2026-02-15T14:31:01.6475615Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -275,7 +275,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-15T14:14:02.7763962Z",
+    "generated_utc": "2026-02-15T14:29:03.4312393Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -290,9 +290,9 @@
       "pnl_card_age_min": 0.68,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-15T14:14:02.2618243Z"
+    "refreshed_utc": "2026-02-15T14:29:02.91988Z"
   },
-  "pnl_card_lwutc": "2026-02-15T14:13:22.2367793Z",
+  "pnl_card_lwutc": "2026-02-15T14:28:22.4801731Z",
   "tasks_running": [
     "LM-Backup-SSD-6h-User",
     "LM-ControlRoom-API-AtStartup",
