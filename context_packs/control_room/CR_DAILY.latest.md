@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T08:02:02.4004250Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T08:17:02.9494679Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False (pid=30448 session=1)
+- IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.79065918166667 miss=0
+- PRICES: ok=True ageMin=18.790716795 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -22,10 +22,10 @@
 - F: freeGB=926.8 freePct=99.9 label=DATA
 
 ### Tasks
-- RunningCount=4
+- RunningCount=3
 - Fails24hCount=3
-  - FAIL task=LM-TX-Micro-CanarySplit-Start-Safe rc=1 lastRunUtc=2026-02-15T08:01:47.0000000Z
-  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T07:58:01.0000000Z
+  - FAIL task=LM-IBGW-SessionGuard-5m rc=1 lastRunUtc=2026-02-15T08:14:01.0000000Z
+  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=1 lastRunUtc=2026-02-15T08:13:01.0000000Z
   - FAIL task=LM-Health-FullAudit-RetentionPrune-Daily rc=64 lastRunUtc=2026-02-15T05:55:29.0000000Z
 
 ### Notes (manual)
