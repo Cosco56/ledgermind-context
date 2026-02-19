@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-19 (UTC=2026-02-19T15:55:27.4902259Z)
+## CR_DAILY v1 — 2026-02-15 (UTC=2026-02-15T21:55:02.5251122Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=True (pid=25252 session=1)
-- DATAQ: mw=OPEN dhs=PASS allow=False reason=ok
-- PRICES: ok=True ageMin=0.01151256 miss=0
+- IBGW_RUNNING=True 4002_LISTEN=True (pid=26176 session=1)
+- DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
+- PRICES: ok=True ageMin=0.01253092 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -17,17 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=153.7 freePct=16.5 label=
-- D: freeGB=616 freePct=66.4 label=DATA
+- C: freeGB=155 freePct=16.7 label=
+- D: freeGB=635.6 freePct=68.5 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=1
-- Fails24hCount=4
-  - FAIL task=LM-Backup-SSD-6h-User rc=2147946720 lastRunUtc=2026-02-19T10:10:01.0000000Z
-  - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-02-18T21:57:01.0000000Z
-  - FAIL task=LM-EOD-ReportLatest-2356 rc=3 lastRunUtc=2026-02-18T21:56:01.0000000Z
-  - FAIL task=LM-EOD-Orchestrator-Daily-2355 rc=1 lastRunUtc=2026-02-18T21:55:01.0000000Z
+- RunningCount=2
+- Fails24hCount=2
+  - FAIL task=LM-TX-Micro-CanarySplit-Stop-Safe rc=2147946720 lastRunUtc=2026-02-15T17:27:36.0000000Z
+  - FAIL task=LM-TX-TruthDrop-SourceOkPatch-OnStart rc=1 lastRunUtc=2026-02-15T17:20:37.0000000Z
 
 ### Notes (manual)
 # NOTES
