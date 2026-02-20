@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-20T16:32:03.2312114Z",
+  "ts_utc": "2026-02-20T16:47:02.5618167Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 163965886464
+      "SizeRemaining": 163980701696
     },
     {
       "DriveLetter": "D",
@@ -110,7 +110,7 @@
       "gap_warn_symbols": [],
       "window_lag_gt2m_symbols": []
     },
-    "updated_utc": "2026-02-20T16:31:22.2390596Z",
+    "updated_utc": "2026-02-20T16:46:22.4201941Z",
     "status": "FAIL",
     "allow_new_trades": false,
     "reasons": [
@@ -120,7 +120,7 @@
     "top_reason": "openready_v2|recency_not_ready|bars_lag>120",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-20T16:31:02.2538076Z",
+      "updated_utc": "2026-02-20T16:46:02.3396415Z",
       "age_sec": 20.0,
       "status": "FAIL",
       "open_recency_ready_eff": false,
@@ -139,16 +139,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "5E83CC38C49A1E818A9D7C218B1226A732F8F47A18A8E9CC327A067C12F22276",
-        "lw_utc": "2026-02-20T16:30:02.9907144Z",
+        "sha256": "349B9221241E1312E3F77DBC2AB23154E8360BF022874F869EBE8D1A624782A5",
+        "lw_utc": "2026-02-20T16:45:02.7969095Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-20T18:28:55.3863424+02:00",
-    "generated_utc": "2026-02-20T16:28:55.387223Z",
+    "generated_at": "2026-02-20T18:43:55.2227967+02:00",
+    "generated_utc": "2026-02-20T16:43:55.2235338Z",
     "business_date": "2026-02-20",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -157,7 +157,7 @@
     "prices_source": {
       "mode": "prices_probe_log",
       "path": "C:\\ProgramData\\LM\\txmicro\\prices\\lm_txmicro_autoprices.script.log",
-      "age_min": 3.816572725,
+      "age_min": 18.813885148333334,
       "max_age_min": 60.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -183,7 +183,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-20T16:31:12.6186074Z",
+    "generated_utc": "2026-02-20T16:46:12.6364346Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -227,7 +227,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-20T16:31:02.7165342Z",
+    "generated_utc": "2026-02-20T16:46:02.8908503Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -280,7 +280,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-20T16:29:02.9420094Z",
+    "generated_utc": "2026-02-20T16:44:03.3047382Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -295,9 +295,9 @@
       "pnl_card_age_min": 0.68,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-20T16:29:02.326213Z"
+    "refreshed_utc": "2026-02-20T16:44:02.6047012Z"
   },
-  "pnl_card_lwutc": "2026-02-20T16:28:22.3948988Z",
+  "pnl_card_lwutc": "2026-02-20T16:43:22.4924871Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-TX-TruthGate-Eval-Writer-1m"
@@ -305,7 +305,7 @@
   "tasks_fails_24h": [
     {
       "task": "LM-Backtests-Coordinator-TuWe-0900Z",
-      "lastRunUtc": "2026-02-20T16:28:51Z",
+      "lastRunUtc": "2026-02-20T16:38:42Z",
       "rc": 3
     }
   ],
@@ -322,8 +322,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "5E83CC38C49A1E818A9D7C218B1226A732F8F47A18A8E9CC327A067C12F22276",
-      "lw_utc": "2026-02-20T16:30:02.9907144Z",
+      "sha256": "349B9221241E1312E3F77DBC2AB23154E8360BF022874F869EBE8D1A624782A5",
+      "lw_utc": "2026-02-20T16:45:02.7969095Z",
       "bytes": 1080
     }
   }
