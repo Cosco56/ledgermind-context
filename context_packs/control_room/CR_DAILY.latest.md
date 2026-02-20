@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-20 (UTC=2026-02-20T06:58:35.7546103Z)
+## CR_DAILY v1 — 2026-02-20 (UTC=2026-02-20T07:02:01.6575759Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=46468 session=1)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=0.00868398666666667 miss=0
+- PRICES: ok=True ageMin=3.83747627333333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -22,10 +22,10 @@
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=1
+- RunningCount=2
 - Fails24hCount=2
+  - FAIL task=Heartbeat09 rc=1 lastRunUtc=2026-02-20T07:00:02.0000000Z
   - FAIL task=LM-EOD-GitHubSync-2358 rc=3 lastRunUtc=2026-02-20T06:58:35.0000000Z
-  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-02-20T06:55:09.0000000Z
 
 ### Notes (manual)
 # NOTES
