@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-20T12:32:02.3832361Z",
+  "ts_utc": "2026-02-20T12:47:02.3003733Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 163996667904
+      "SizeRemaining": 163995848704
     },
     {
       "DriveLetter": "D",
@@ -114,7 +114,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-20T12:31:22.2401542Z",
+    "updated_utc": "2026-02-20T12:46:21.3693943Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -125,8 +125,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-20T12:31:01.8765452Z",
-      "age_sec": 20.0,
+      "updated_utc": "2026-02-20T12:46:01.9886977Z",
+      "age_sec": 19.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -144,16 +144,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "932AC9D10E16142009FFC74CF6EF7510A4A82EA85EF5001B427E3F6BCF718AFD",
-        "lw_utc": "2026-02-20T12:30:01.6809923Z",
+        "sha256": "68BF8742489E524E767EAADEC97EDBEA33AB06FEAB19B9FDE8D1CDA57EDF2ADC",
+        "lw_utc": "2026-02-20T12:45:01.6472150Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-20T14:28:54.2709893+02:00",
-    "generated_utc": "2026-02-20T12:28:54.2716764Z",
+    "generated_at": "2026-02-20T14:43:53.8137897+02:00",
+    "generated_utc": "2026-02-20T12:43:53.8145437Z",
     "business_date": "2026-02-20",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -162,7 +162,7 @@
     "prices_source": {
       "mode": "prices_probe_log",
       "path": "C:\\ProgramData\\LM\\txmicro\\prices\\lm_txmicro_autoprices.script.log",
-      "age_min": 3.7895425616666665,
+      "age_min": 18.781907171666667,
       "max_age_min": 180.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -188,7 +188,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-20T12:31:12.1292391Z",
+    "generated_utc": "2026-02-20T12:46:12.1833342Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -232,7 +232,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-20T12:31:01.7268888Z",
+    "generated_utc": "2026-02-20T12:46:01.6530072Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -285,7 +285,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-20T12:29:03.2223878Z",
+    "generated_utc": "2026-02-20T12:44:02.6649431Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -297,12 +297,12 @@
       "policy_gate": "C:\\ledgermind\\data\\tx\\gates\\tx_micro_policy_gate.latest.json"
     },
     "meta": {
-      "pnl_card_age_min": 0.67,
+      "pnl_card_age_min": 0.66,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-20T12:29:02.7551572Z"
+    "refreshed_utc": "2026-02-20T12:44:02.3812897Z"
   },
-  "pnl_card_lwutc": "2026-02-20T12:28:22.9071672Z",
+  "pnl_card_lwutc": "2026-02-20T12:43:22.8280372Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-TX-TruthGate-Eval-Writer-1m"
@@ -327,8 +327,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "932AC9D10E16142009FFC74CF6EF7510A4A82EA85EF5001B427E3F6BCF718AFD",
-      "lw_utc": "2026-02-20T12:30:01.6809923Z",
+      "sha256": "68BF8742489E524E767EAADEC97EDBEA33AB06FEAB19B9FDE8D1CDA57EDF2ADC",
+      "lw_utc": "2026-02-20T12:45:01.6472150Z",
       "bytes": 1080
     }
   }
