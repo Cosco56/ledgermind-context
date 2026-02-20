@@ -1,53 +1,53 @@
-# LedgerMind EOD Report (20260219)
+# LedgerMind EOD Report (20260220)
 
-- generated_utc: 2026-02-19T21:55:19.3998279Z
+- generated_utc: 2026-02-20T04:47:45.1148122Z
 - nowrite_present: True
 - gate_present: False
 
 ## Key files
-- C:\ProgramData\LM\ops\autonomy\autonomy_state.latest.json | exists=True | sha256=16DA36A0CE6508AC4427CC1A51C9FDD09EF775C8F4CDACC45108F5AF192AC35C | lwUtc=2026-02-19T21:54:02.2626891Z | bytes=5149
-- C:\ProgramData\LM\ops\autonomy\autonomy_master.log | exists=True | sha256=6EEBABF58BF17A79DDF2E922167C4798614F49055CE9CD740E34E8CA5DB7984E | lwUtc=2026-02-19T21:54:02.2836859Z | bytes=637264
+- C:\ProgramData\LM\ops\autonomy\autonomy_state.latest.json | exists=True | sha256=B7269C172AFBB3CFAC454D882C103DE2C9BF74E775FA65110E43ABB604406C96 | lwUtc=2026-02-20T04:44:02.7013463Z | bytes=5149
+- C:\ProgramData\LM\ops\autonomy\autonomy_master.log | exists=True | sha256=41EC4F70078811A36BCAB819CD21881F63ABB1739C3556A03652C670CEBA64B6 | lwUtc=2026-02-20T04:44:02.7124786Z | bytes=656288
 - C:\ProgramData\LM\tasks\logs\LM-Autonomy-PaperPulse-0905.log | exists=True | sha256=C01F401AA23840B25F1A2873AF80F864B886AF86728EF3E91ECC14428F908EA9 | lwUtc=2026-02-05T07:05:07.0644876Z | bytes=20105
 - C:\ProgramData\LM\tx\exec\locks\tx_exec_truth_gate.nowrite | exists=True | sha256=E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855 | lwUtc=2026-02-15T14:41:34.0062833Z | bytes=0
 
 ## Tasks
 - \LedgerMind\LM-Autonomy-Master-OnStart | status=Disabled | last_run=03/02/2026 09:38:55 | last_result=0 | next_run=N/A
-- \LedgerMind\LM-Autonomy-Master-5m | status=Ready | last_run=19/02/2026 23:54:01 | last_result=0 | next_run=19/02/2026 23:59:00
+- \LedgerMind\LM-Autonomy-Master-5m | status=Ready | last_run=20/02/2026 06:44:01 | last_result=0 | next_run=20/02/2026 06:49:00
 - \LedgerMind\LM-Autonomy-PaperPulse-AutoArm-0904 | status=Disabled | last_run=05/02/2026 09:04:00 | last_result=0 | next_run=N/A
 - \LedgerMind\LM-Autonomy-PaperPulse-0905 | status=Disabled | last_run=05/02/2026 09:05:00 | last_result=0 | next_run=N/A
 
 ## Tail: autonomy_master.log
 ```
-2026-02-19T20:44:01.7081360Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T20:44:02.0973311Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T20:49:01.7384150Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T20:49:02.1249371Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T20:54:01.7391340Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T20:54:02.1119944Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T20:59:01.7947247Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T20:59:02.1563657Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:04:01.8337144Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:04:02.2212054Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:09:01.8970752Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:09:02.2845164Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:14:01.7456874Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:14:02.1693419Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:19:01.7224993Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:19:02.2204506Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:24:01.6555132Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:24:02.1924784Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:29:01.6229730Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:29:02.1199529Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:34:01.6725448Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:34:02.2378293Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:39:01.6184978Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:39:02.1309745Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:44:01.6151300Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:44:02.2001042Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:49:01.5996391Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:49:02.2058414Z END ok=True wrote_state=True paper_attempted=False paper_lr=
-2026-02-19T21:54:01.6259398Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
-2026-02-19T21:54:02.2684224Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:34:02.2342416Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:34:02.5267279Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:39:02.1776940Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:39:02.4809264Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:44:02.2947827Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:44:02.5608437Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:49:02.2260723Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:49:02.5013357Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:54:02.2193950Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:54:02.4996812Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T03:59:02.2421492Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T03:59:02.5059240Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:04:02.2897090Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:04:02.5727141Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:09:02.2882376Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:09:02.5491155Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:14:02.3707413Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:14:02.6568576Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:19:02.3756631Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:19:02.6626705Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:24:02.3653961Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:24:02.6294811Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:29:02.3696937Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:29:02.6188586Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:34:02.3528337Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:34:02.6199774Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:39:02.4097805Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:39:02.6648488Z END ok=True wrote_state=True paper_attempted=False paper_lr=
+2026-02-20T04:44:02.4365617Z START v5 base=C:\ProgramData\LM\ops\autonomy modePath=C:\ledgermind\data\tx\autonomy\autonomy_mode.latest.json
+2026-02-20T04:44:02.7046748Z END ok=True wrote_state=True paper_attempted=False paper_lr=
 ```
 
 ## Tail: paper_pulse log
