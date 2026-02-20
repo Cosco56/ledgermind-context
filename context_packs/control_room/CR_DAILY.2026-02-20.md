@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-19 (UTC=2026-02-19T21:55:02.4984154Z)
+## CR_DAILY v1 — 2026-02-20 (UTC=2026-02-20T06:55:59.9344761Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=True (pid=25252 session=1)
+- IBGW_RUNNING=True 4002_LISTEN=True (pid=46468 session=1)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=0.012145515 miss=0
+- PRICES: ok=True ageMin=0.00868398666666667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:5<10 trade_days_30d=5
 - MLR: ok=True
@@ -17,15 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=153.7 freePct=16.5 label=
-- D: freeGB=610.9 freePct=65.9 label=DATA
+- C: freeGB=152.7 freePct=16.4 label=
+- D: freeGB=608.2 freePct=65.6 label=DATA
 - E: freeGB=1583.5 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=2
-- Fails24hCount=2
-  - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-02-18T21:57:01.0000000Z
-  - FAIL task=LM-EOD-ReportLatest-2356 rc=3 lastRunUtc=2026-02-18T21:56:01.0000000Z
+- Fails24hCount=1
+  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-02-20T06:55:09.0000000Z
 
 ### Notes (manual)
 # NOTES
