@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-21T21:32:02.0479759Z",
+  "ts_utc": "2026-02-21T21:47:01.8365701Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 162982924288
+      "SizeRemaining": 162992541696
     },
     {
       "DriveLetter": "D",
@@ -114,7 +114,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-21T21:31:22.0786158Z",
+    "updated_utc": "2026-02-21T21:46:22.1469271Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -125,7 +125,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-21T21:31:01.2537516Z",
+      "updated_utc": "2026-02-21T21:46:01.3774892Z",
       "age_sec": 21.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -144,16 +144,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "297CF56F86EFC5D603C74DE9CD107F84B6F7DEE6C0F62CC4AE5D02A762B5DCE5",
-        "lw_utc": "2026-02-21T21:30:02.1068441Z",
+        "sha256": "7ECA26D395EEBA148B9F4B3D120E2CB3652EF6FD8DBF153C5EBFD10ADF9D13AD",
+        "lw_utc": "2026-02-21T21:45:01.9832179Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-21T23:28:52.6262834+02:00",
-    "generated_utc": "2026-02-21T21:28:52.6268811Z",
+    "generated_at": "2026-02-21T23:43:52.7076921+02:00",
+    "generated_utc": "2026-02-21T21:43:52.7084267Z",
     "business_date": "2026-02-21",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -162,7 +162,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-20.csv",
-      "age_min": 3.7923441816666665,
+      "age_min": 18.793544981666667,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -188,7 +188,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-21T21:31:12.2354156Z",
+    "generated_utc": "2026-02-21T21:46:12.3073319Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -232,7 +232,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-21T21:31:02.4509542Z",
+    "generated_utc": "2026-02-21T21:46:02.4908048Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -285,7 +285,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-21T21:29:02.7097827Z",
+    "generated_utc": "2026-02-21T21:44:02.8794126Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -300,18 +300,17 @@
       "pnl_card_age_min": 0.67,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-21T21:29:02.4589943Z"
+    "refreshed_utc": "2026-02-21T21:44:02.5703386Z"
   },
-  "pnl_card_lwutc": "2026-02-21T21:28:22.6459675Z",
+  "pnl_card_lwutc": "2026-02-21T21:43:22.691368Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
-    "LM-OpenTasks-Switch-1m",
     "LM-TX-TruthGate-Eval-Writer-1m"
   ],
   "tasks_fails_24h": [
     {
       "task": "LM-TX-Micro-RiskStop-Eval-1m",
-      "lastRunUtc": "2026-02-21T21:32:01Z",
+      "lastRunUtc": "2026-02-21T21:47:01Z",
       "rc": 1
     },
     {
@@ -333,8 +332,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "297CF56F86EFC5D603C74DE9CD107F84B6F7DEE6C0F62CC4AE5D02A762B5DCE5",
-      "lw_utc": "2026-02-21T21:30:02.1068441Z",
+      "sha256": "7ECA26D395EEBA148B9F4B3D120E2CB3652EF6FD8DBF153C5EBFD10ADF9D13AD",
+      "lw_utc": "2026-02-21T21:45:01.9832179Z",
       "bytes": 1080
     }
   }
