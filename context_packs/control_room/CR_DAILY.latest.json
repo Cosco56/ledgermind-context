@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-22T03:32:02.3309552Z",
+  "ts_utc": "2026-02-22T03:47:02.2584973Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 162933125120
+      "SizeRemaining": 162945249280
     },
     {
       "DriveLetter": "D",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-22T03:31:21.9195415Z",
+    "updated_utc": "2026-02-22T03:46:22.0483963Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,8 +133,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-22T03:31:02.3034662Z",
-      "age_sec": 20.0,
+      "updated_utc": "2026-02-22T03:46:01.3247318Z",
+      "age_sec": 21.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -152,16 +152,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "AD93C8B076527C59E8772BD98C53805643816A02E0B545042B84EF91A616522A",
-        "lw_utc": "2026-02-22T03:30:01.5608095Z",
+        "sha256": "E1D1DDCA0E064ED33C0229A986786C0415351871BD27C96F990A29A4CE5882B8",
+        "lw_utc": "2026-02-22T03:45:01.5261258Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-22T05:28:52.2452652+02:00",
-    "generated_utc": "2026-02-22T03:28:52.2458667Z",
+    "generated_at": "2026-02-22T05:43:52.1207+02:00",
+    "generated_utc": "2026-02-22T03:43:52.1212787Z",
     "business_date": "2026-02-21",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -170,7 +170,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-20.csv",
-      "age_min": 3.789445098333333,
+      "age_min": 18.787369606666665,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -196,7 +196,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-22T03:31:12.0121522Z",
+    "generated_utc": "2026-02-22T03:46:12.1242938Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -240,7 +240,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-22T03:31:02.0893123Z",
+    "generated_utc": "2026-02-22T03:46:02.1231709Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -293,7 +293,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-22T03:29:02.4840395Z",
+    "generated_utc": "2026-02-22T03:44:02.6068326Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -308,9 +308,9 @@
       "pnl_card_age_min": 0.67,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-22T03:29:02.1764275Z"
+    "refreshed_utc": "2026-02-22T03:44:02.2666467Z"
   },
-  "pnl_card_lwutc": "2026-02-22T03:28:22.1823273Z",
+  "pnl_card_lwutc": "2026-02-22T03:43:22.276593Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-OpenTasks-Switch-1m",
@@ -319,7 +319,7 @@
   "tasks_fails_24h": [
     {
       "task": "LM-TX-Micro-RiskStop-Eval-1m",
-      "lastRunUtc": "2026-02-22T03:32:01Z",
+      "lastRunUtc": "2026-02-22T03:47:01Z",
       "rc": 1
     },
     {
@@ -341,8 +341,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "AD93C8B076527C59E8772BD98C53805643816A02E0B545042B84EF91A616522A",
-      "lw_utc": "2026-02-22T03:30:01.5608095Z",
+      "sha256": "E1D1DDCA0E064ED33C0229A986786C0415351871BD27C96F990A29A4CE5882B8",
+      "lw_utc": "2026-02-22T03:45:01.5261258Z",
       "bytes": 1080
     }
   }
