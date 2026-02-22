@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-22T01:32:02.2373273Z",
+  "ts_utc": "2026-02-22T01:47:02.2452316Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 162947166208
+      "SizeRemaining": 162952044544
     },
     {
       "DriveLetter": "D",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-02-22T01:31:21.9765551Z",
+    "updated_utc": "2026-02-22T01:46:22.0591949Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,8 +133,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-22T01:31:02.3497592Z",
-      "age_sec": 20.0,
+      "updated_utc": "2026-02-22T01:46:01.3992804Z",
+      "age_sec": 21.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -152,16 +152,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "2A240A7942D0EAEF2704EEB8DEFC1F85B63F9ECC58908F186E84BA69B20AF5C7",
-        "lw_utc": "2026-02-22T01:30:01.2979926Z",
+        "sha256": "6284DF758A8F08932763AC9905D72BC849F3A383D9424545A04B0378744DE96C",
+        "lw_utc": "2026-02-22T01:45:01.4041021Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-22T03:28:51.962717+02:00",
-    "generated_utc": "2026-02-22T01:28:51.9633098Z",
+    "generated_at": "2026-02-22T03:43:51.9845592+02:00",
+    "generated_utc": "2026-02-22T01:43:51.985158Z",
     "business_date": "2026-02-21",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -170,7 +170,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-20.csv",
-      "age_min": 3.78870273,
+      "age_min": 18.78891433,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -196,7 +196,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-22T01:31:12.059341Z",
+    "generated_utc": "2026-02-22T01:46:12.1969142Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -240,7 +240,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-22T01:31:01.6444903Z",
+    "generated_utc": "2026-02-22T01:46:01.6683551Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -293,7 +293,7 @@
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-22T01:29:02.3223353Z",
+    "generated_utc": "2026-02-22T01:44:02.3648181Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -308,9 +308,9 @@
       "pnl_card_age_min": 0.66,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-22T01:29:01.8987442Z"
+    "refreshed_utc": "2026-02-22T01:44:01.8442866Z"
   },
-  "pnl_card_lwutc": "2026-02-22T01:28:22.9622747Z",
+  "pnl_card_lwutc": "2026-02-22T01:43:22.9842131Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-OpenTasks-Switch-1m",
@@ -319,7 +319,7 @@
   "tasks_fails_24h": [
     {
       "task": "LM-TX-Micro-RiskStop-Eval-1m",
-      "lastRunUtc": "2026-02-22T01:32:01Z",
+      "lastRunUtc": "2026-02-22T01:47:01Z",
       "rc": 1
     },
     {
@@ -341,8 +341,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "2A240A7942D0EAEF2704EEB8DEFC1F85B63F9ECC58908F186E84BA69B20AF5C7",
-      "lw_utc": "2026-02-22T01:30:01.2979926Z",
+      "sha256": "6284DF758A8F08932763AC9905D72BC849F3A383D9424545A04B0378744DE96C",
+      "lw_utc": "2026-02-22T01:45:01.4041021Z",
       "bytes": 1080
     }
   }
