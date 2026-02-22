@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-02-22 (UTC=2026-02-22T07:32:02.9196060Z)
+## CR_DAILY v1 — 2026-02-22 (UTC=2026-02-22T07:32:37.2831018Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -22,7 +22,7 @@
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
+- RunningCount=1
 - Fails24hCount=0
 
 ### Notes (manual)
