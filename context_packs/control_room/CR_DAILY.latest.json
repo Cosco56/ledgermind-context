@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-02-23T20:17:02.5200984Z",
+  "ts_utc": "2026-02-23T20:32:02.5469782Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 159931461632
+      "SizeRemaining": 159919710208
     },
     {
       "DriveLetter": "D",
@@ -50,8 +50,8 @@
   "power_scheme": "Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))",
   "dataq": {
     "schema": "lm.dataq.market.v5",
-    "now_utc": "2026-02-23T19:55:04.612952Z",
-    "now_epoch_sec": 1771876504,
+    "now_utc": "2026-02-23T20:25:04.635618Z",
+    "now_epoch_sec": 1771878304,
     "market_window": "OPEN",
     "market_open_utc": "2026-02-23T14:30:00Z",
     "market_close_utc": "2026-02-23T21:00:00Z",
@@ -72,7 +72,7 @@
       },
       "config": {
         "path": "C:\\ledgermind\\config\\dataq\\market_dataq.config.json",
-        "age_sec": 1551840
+        "age_sec": 1553640
       }
     },
     "provider": {
@@ -97,8 +97,8 @@
       "gappy_count": 0,
       "gap_warn_count": 0,
       "window_observed": true,
-      "window_max_ts_utc": "2026-02-23T19:54:00Z",
-      "window_max_ts_epoch_sec": 1771876440,
+      "window_max_ts_utc": "2026-02-23T20:24:00Z",
+      "window_max_ts_epoch_sec": 1771878240,
       "window_lag_min_max": 1.0,
       "window_lag_gt2m_count": 0
     },
@@ -110,7 +110,7 @@
       "gap_warn_symbols": [],
       "window_lag_gt2m_symbols": []
     },
-    "updated_utc": "2026-02-23T20:16:21.2590319Z",
+    "updated_utc": "2026-02-23T20:31:21.4045957Z",
     "status": "FAIL",
     "allow_new_trades": false,
     "reasons": [
@@ -120,7 +120,7 @@
     "top_reason": "openready_v2|recency_not_ready|bars_lag>120",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-02-23T20:16:02.1149524Z",
+      "updated_utc": "2026-02-23T20:31:02.2123113Z",
       "age_sec": 19.0,
       "status": "FAIL",
       "open_recency_ready_eff": false,
@@ -139,16 +139,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "72177535C83D0C9FC25AB8F7EA06C3A9CB69FCF3ECBEF5FF9480493CADB1E42F",
-        "lw_utc": "2026-02-23T20:15:02.4507533Z",
+        "sha256": "D14CF1ADC64C23B1468333C109B22828BA9FBA1EC0AE2DDC23A25ACEAB15228D",
+        "lw_utc": "2026-02-23T20:30:01.3512094Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-02-23T22:13:53.0834225+02:00",
-    "generated_utc": "2026-02-23T20:13:53.084093Z",
+    "generated_at": "2026-02-23T22:28:52.8702524+02:00",
+    "generated_utc": "2026-02-23T20:28:52.8709479Z",
     "business_date": "2026-02-23",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -157,7 +157,7 @@
     "prices_source": {
       "mode": "prices_probe_log",
       "path": "C:\\ProgramData\\LM\\txmicro\\prices\\lm_txmicro_autoprices.script.log",
-      "age_min": 18.78830098,
+      "age_min": 3.783423723333333,
       "max_age_min": 60.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -183,7 +183,7 @@
     "unknown_open_orders_safe": [],
     "reduce_only_mode": false,
     "ok": true,
-    "generated_utc": "2026-02-23T20:16:12.2725809Z",
+    "generated_utc": "2026-02-23T20:31:12.3200437Z",
     "allow": false,
     "snapshot_age_sec": 0.9,
     "allow_new_orders": false,
@@ -227,7 +227,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-02-23T20:17:02.5775457Z",
+    "generated_utc": "2026-02-23T20:32:02.751847Z",
     "enabled": true,
     "status": "pass",
     "ok": true,
@@ -237,10 +237,10 @@
     "reasons": [],
     "warnings": [],
     "inputs": {
-      "pnl_col": "pnl_usd",
+      "date_col": "business_date",
       "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json",
       "pnl_csv": "C:\\ledgermind\\data\\tx\\history\\tx_micro_daily.pnl_from_bridge.csv",
-      "date_col": "business_date"
+      "pnl_col": "pnl_usd"
     },
     "thresholds": {
       "thresholds": {
@@ -262,23 +262,23 @@
       "max_recency_days": 7
     },
     "metrics": {
-      "trade_days_30d": 14,
+      "recency_days": 0.939,
       "last_dt_utc": "2026-02-22T22:00:00Z",
-      "pnl_30d": 0.0,
-      "pnl_30d_pct": 0.0,
-      "pnl_7d": 0.0,
-      "pnl_1d_pct": 0.0,
-      "dd_30d_pct": 0.0,
-      "pnl_7d_pct": 0.0,
-      "consec_loss_days": 0,
+      "pnl_1d": 0.0,
+      "trade_days_30d": 14,
       "dd_30d": 0.0,
-      "recency_days": 0.929,
-      "pnl_1d": 0.0
+      "pnl_30d": 0.0,
+      "pnl_7d_pct": 0.0,
+      "dd_30d_pct": 0.0,
+      "pnl_30d_pct": 0.0,
+      "consec_loss_days": 0,
+      "pnl_7d": 0.0,
+      "pnl_1d_pct": 0.0
     }
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-02-23T20:14:04.0796281Z",
+    "generated_utc": "2026-02-23T20:29:03.825345Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -293,13 +293,12 @@
       "pnl_card_age_min": 0.68,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-02-23T20:14:03.7102008Z"
+    "refreshed_utc": "2026-02-23T20:29:03.4594762Z"
   },
-  "pnl_card_lwutc": "2026-02-23T20:13:23.0952039Z",
+  "pnl_card_lwutc": "2026-02-23T20:28:23.192363Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-IBGW-UI-Catcher-OnLogon",
-    "LM-OpenTasks-Switch-1m",
     "LM-TX-TruthGate-Eval-Writer-1m"
   ],
   "tasks_fails_24h": [
@@ -322,8 +321,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "72177535C83D0C9FC25AB8F7EA06C3A9CB69FCF3ECBEF5FF9480493CADB1E42F",
-      "lw_utc": "2026-02-23T20:15:02.4507533Z",
+      "sha256": "D14CF1ADC64C23B1468333C109B22828BA9FBA1EC0AE2DDC23A25ACEAB15228D",
+      "lw_utc": "2026-02-23T20:30:01.3512094Z",
       "bytes": 1080
     }
   }
