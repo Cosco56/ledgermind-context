@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-23 (UTC=2026-02-23T18:02:03.1491366Z)
+## CR_DAILY v1 — 2026-02-23 (UTC=2026-02-23T18:17:02.4467529Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=33432 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=3.83633962 miss=0
+- PRICES: ok=True ageMin=18.78398695 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=13
 - MLR: ok=True
@@ -17,15 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=148.9 freePct=16 label=
+- C: freeGB=149 freePct=16 label=
 - D: freeGB=584.6 freePct=63 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
-- Fails24hCount=2
+- RunningCount=4
+- Fails24hCount=1
   - FAIL task=LM-IBGW-UI-Catcher-OnLogon rc=2147946720 lastRunUtc=2026-02-23T18:00:04.0000000Z
-  - FAIL task=LM-TX-MicroLiveReady-EvalV5-5m rc=3221225786 lastRunUtc=2026-02-23T17:59:01.0000000Z
 
 ### Notes (manual)
 # NOTES
