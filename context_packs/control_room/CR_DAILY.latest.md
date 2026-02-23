@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-23 (UTC=2026-02-23T07:02:02.8718157Z)
+## CR_DAILY v1 — 2026-02-23 (UTC=2026-02-23T07:17:02.1516185Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=34212 session=1)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.79897764166667 miss=0
+- PRICES: ok=True ageMin=18.7844424583333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=13
 - MLR: ok=True
@@ -24,8 +24,8 @@
 ### Tasks
 - RunningCount=4
 - Fails24hCount=4
-  - FAIL task=LM-TX-Micro-RiskStop-Eval-1m rc=2147946720 lastRunUtc=2026-02-23T07:02:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-02-23T06:57:57.0000000Z
+  - FAIL task=LM-TX-Micro-RiskStop-Eval-1m rc=2147946720 lastRunUtc=2026-02-23T07:17:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-02-23T07:12:57.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-02-22T21:57:01.0000000Z
   - FAIL task=LM-EOD-ReportLatest-2356 rc=3 lastRunUtc=2026-02-22T21:56:01.0000000Z
 
