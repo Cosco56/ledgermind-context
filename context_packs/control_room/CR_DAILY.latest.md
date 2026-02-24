@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-24 (UTC=2026-02-24T09:02:02.9973852Z)
+## CR_DAILY v1 — 2026-02-24 (UTC=2026-02-24T09:17:03.4434515Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=0.644047951666667 miss=0
+- PRICES: ok=True ageMin=6.74525819666667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=14
 - MLR: ok=True
@@ -17,14 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=149.4 freePct=16.1 label=
+- C: freeGB=149.5 freePct=16.1 label=
 - D: freeGB=581.2 freePct=62.7 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=1
 - Fails24hCount=1
-  - FAIL task=LM-ControlRoom-StaticServer-OnStart rc=1 lastRunUtc=2026-02-24T08:57:21.0000000Z
+  - FAIL task=LM-Canary-Ready10D-Daily rc=1 lastRunUtc=2026-02-24T09:06:16.0000000Z
 
 ### Notes (manual)
 # NOTES
