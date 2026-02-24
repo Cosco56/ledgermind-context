@@ -1,13 +1,13 @@
-## CR_DAILY v1 — 2026-02-24 (UTC=2026-02-24T21:17:01.9841376Z)
+## CR_DAILY v1 — 2026-02-24 (UTC=2026-02-24T21:32:02.0090402Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=5336 session=3)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.78429036 miss=0
+- PRICES: ok=False ageMin=9.31782282333333 miss=1
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=15
-- MLR: ok=True
+- MLR: ok=False
 
 ### System
 - CPU=Intel(R) Core(TM) i7-14700F Cores=20 LP=28
@@ -17,13 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=149.1 freePct=16 label=
+- C: freeGB=149.2 freePct=16 label=
 - D: freeGB=577.8 freePct=62.3 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=0
+- Fails24hCount=1
+  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-02-24T21:30:01.0000000Z
 
 ### Notes (manual)
 # NOTES
@@ -122,4 +123,4 @@
 * `ibgw_4002_listen=false` בזמן `mw=CLOSED` — צפוי; לא חוסם (Fail-Closed).
 * ROI להמשך: PreOpen/OPEN kit לניהול IBGW/4002 לפי חלון מסחר בלי false-fails.
 
-DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
+DATAQ_CONTRACT ok=False status=fail missing=1 suffixUS=0 dup=0
