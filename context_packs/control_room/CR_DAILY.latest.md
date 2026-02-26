@@ -1,13 +1,13 @@
-## CR_DAILY v1 — 2026-02-26 (UTC=2026-02-26T22:02:03.0736769Z)
+## CR_DAILY v1 — 2026-02-26 (UTC=2026-02-26T22:17:03.4047809Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.76922074666667 miss=0
+- PRICES: ok=True ageMin=18.7593842866667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=17
-- MLR: ok=True
+- MLR: ok=False
 
 ### System
 - CPU=Intel(R) Core(TM) i7-14700F Cores=20 LP=28
@@ -17,15 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=146.1 freePct=15.7 label=
-- D: freeGB=564.2 freePct=60.8 label=DATA
+- C: freeGB=146.2 freePct=15.7 label=
+- D: freeGB=563.4 freePct=60.7 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
+- RunningCount=4
 - Fails24hCount=2
-  - FAIL task=LM-TX-ExecTruth-ReduceOnly-SoftPass-1m rc=1 lastRunUtc=2026-02-26T22:02:01.0000000Z
-  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-02-26T22:01:01.0000000Z
+  - FAIL task=LM-TX-ExecTruth-ReduceOnly-SoftPass-1m rc=1 lastRunUtc=2026-02-26T22:17:01.0000000Z
+  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-02-26T22:16:01.0000000Z
 
 ### Notes (manual)
 # NOTES
