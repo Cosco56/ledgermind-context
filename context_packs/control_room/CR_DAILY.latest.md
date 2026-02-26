@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-26 (UTC=2026-02-26T11:02:02.4606434Z)
+## CR_DAILY v1 — 2026-02-26 (UTC=2026-02-26T11:17:02.8381741Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.78665392166667 miss=0
+- PRICES: ok=True ageMin=18.8316755866667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=16
 - MLR: ok=True
@@ -22,7 +22,7 @@
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=4
+- RunningCount=3
 - Fails24hCount=0
 
 ### Notes (manual)
