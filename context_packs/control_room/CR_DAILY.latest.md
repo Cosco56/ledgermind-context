@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-02-27 (UTC=2026-02-27T10:02:02.5796648Z)
+## CR_DAILY v1 — 2026-02-27 (UTC=2026-02-27T10:17:02.8017064Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.81243058 miss=0
+- PRICES: ok=True ageMin=18.8164828533333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=17
 - MLR: ok=True
@@ -18,15 +18,14 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=145.9 freePct=15.7 label=
-- D: freeGB=560.7 freePct=60.4 label=DATA
+- D: freeGB=559.9 freePct=60.4 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=3
-- Fails24hCount=3
-  - FAIL task=LM-TX-BrokerExports-TruthDropBroker-MetaEnsure-1m rc=1 lastRunUtc=2026-02-27T10:02:01.0000000Z
-  - FAIL task=LM-TX-ExecTruth-ReduceOnly-SoftPass-1m rc=1 lastRunUtc=2026-02-27T10:02:01.0000000Z
-  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-02-27T10:01:01.0000000Z
+- RunningCount=5
+- Fails24hCount=2
+  - FAIL task=LM-TX-ExecTruth-ReduceOnly-SoftPass-1m rc=1 lastRunUtc=2026-02-27T10:17:01.0000000Z
+  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-02-27T10:16:01.0000000Z
 
 ### Notes (manual)
 # NOTES
