@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-01 (UTC=2026-03-01T07:02:02.1915553Z)
+## CR_DAILY v1 — 2026-03-01 (UTC=2026-03-01T07:17:02.2300461Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.81609167666667 miss=0
+- PRICES: ok=True ageMin=18.7911303966667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=18
 - MLR: ok=True
@@ -17,15 +17,16 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=142.5 freePct=15.3 label=
+- C: freeGB=142.4 freePct=15.3 label=
 - D: freeGB=548.3 freePct=59.1 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=2
-  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-03-01T07:01:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-01T06:57:57.0000000Z
+- Fails24hCount=3
+  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-03-01T07:16:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-01T07:12:57.0000000Z
+  - FAIL task=LM-ChatStartPack-15m rc=1 lastRunUtc=2026-03-01T07:08:11.0000000Z
 
 ### Notes (manual)
 # NOTES
