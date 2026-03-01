@@ -1,6 +1,6 @@
 {
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-03-01T11:17:02.3134146Z",
+  "ts_utc": "2026-03-01T11:19:04.6661229Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -27,7 +27,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": "",
       "Size": 999215329280,
-      "SizeRemaining": 152812036096
+      "SizeRemaining": 152810901504
     },
     {
       "DriveLetter": "D",
@@ -118,7 +118,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-03-01T11:16:21.4900138Z",
+    "updated_utc": "2026-03-01T11:18:21.4673433Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -133,7 +133,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-03-01T11:16:01.5228862Z",
+      "updated_utc": "2026-03-01T11:18:01.5879557Z",
       "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -160,8 +160,8 @@
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-03-01T13:13:54.3316529+02:00",
-    "generated_utc": "2026-03-01T11:13:54.3322532Z",
+    "generated_at": "2026-03-01T13:18:52.6958319+02:00",
+    "generated_utc": "2026-03-01T11:18:52.6964227Z",
     "business_date": "2026-03-01",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -170,7 +170,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-02-27.csv",
-      "age_min": 18.814672188333333,
+      "age_min": 23.78740625,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -231,7 +231,7 @@
       "last_seen_utc": null,
       "escalate_after_sec": 180
     },
-    "generated_utc": "2026-03-01T11:16:12.3404989Z",
+    "generated_utc": "2026-03-01T11:18:12.3722946Z",
     "allow": false,
     "allow_new_orders": false,
     "allow_new": false,
@@ -242,7 +242,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-03-01T11:17:02.2563561Z",
+    "generated_utc": "2026-03-01T11:19:02.6986821Z",
     "enabled": true,
     "status": "pass",
     "ok": true,
@@ -252,10 +252,10 @@
     "reasons": [],
     "warnings": [],
     "inputs": {
-      "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json",
-      "date_col": "business_date",
       "pnl_csv": "C:\\ledgermind\\data\\tx\\history\\tx_micro_daily.pnl_from_bridge.csv",
-      "pnl_col": "pnl_usd"
+      "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json",
+      "pnl_col": "pnl_usd",
+      "date_col": "business_date"
     },
     "thresholds": {
       "max_recency_days": 7,
@@ -277,23 +277,23 @@
       }
     },
     "metrics": {
-      "recency_days": 2.553,
-      "trade_days_30d": 18,
-      "pnl_7d": 0.0,
-      "pnl_7d_pct": 0.0,
-      "dd_30d": 0.0,
+      "last_dt_utc": "2026-02-26T22:00:00Z",
+      "recency_days": 2.555,
+      "pnl_1d_pct": 0.0,
+      "pnl_1d": 0.0,
       "pnl_30d_pct": 0.0,
+      "dd_30d": 0.0,
+      "pnl_7d_pct": 0.0,
+      "pnl_30d": 0.0,
       "dd_30d_pct": 0.0,
       "consec_loss_days": 0,
-      "pnl_1d_pct": 0.0,
-      "pnl_30d": 0.0,
-      "pnl_1d": 0.0,
-      "last_dt_utc": "2026-02-26T22:00:00Z"
+      "pnl_7d": 0.0,
+      "trade_days_30d": 18
     }
   },
   "micro_live_ready": {
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-03-01T11:14:02.925166Z",
+    "generated_utc": "2026-03-01T11:19:02.9791056Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -305,12 +305,12 @@
       "policy_gate": "C:\\ledgermind\\data\\tx\\gates\\tx_micro_policy_gate.latest.json"
     },
     "meta": {
-      "pnl_card_age_min": 0.67,
+      "pnl_card_age_min": 0.66,
       "pnl_card_max_age_min": 45
     },
-    "refreshed_utc": "2026-03-01T11:14:02.6690209Z"
+    "refreshed_utc": "2026-03-01T11:19:02.6896585Z"
   },
-  "pnl_card_lwutc": "2026-03-01T11:13:22.9297045Z",
+  "pnl_card_lwutc": "2026-03-01T11:18:23.2966941Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-OPEN-BarsEvidence-OPEN-1m",
