@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-02 (UTC=2026-03-02T14:17:02.3210159Z)
+## CR_DAILY v1 — 2026-03-02 (UTC=2026-03-02T14:32:02.2778874Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True (pid=44992 session=1)
-- DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.8040250616667 miss=0
+- DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
+- PRICES: ok=True ageMin=3.80610436 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=18
 - MLR: ok=True
@@ -23,9 +23,8 @@
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=3
-  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-03-02T14:16:01.0000000Z
-  - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-03-02T13:35:00.0000000Z
+- Fails24hCount=2
+  - FAIL task=LM-VBS-ZombieSweep-5m rc=1 lastRunUtc=2026-03-02T14:31:01.0000000Z
   - FAIL task=LM-IBGW-SessionGuard-OnStart rc=1 lastRunUtc=2026-03-02T05:45:45.0000000Z
 
 ### Notes (manual)
