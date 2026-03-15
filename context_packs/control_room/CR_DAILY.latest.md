@@ -1,12 +1,12 @@
-## CR_DAILY v1 — 2026-03-15 (UTC=2026-03-15T21:47:02.2321900Z)
+## CR_DAILY v1 — 2026-03-15 (UTC=2026-03-15T22:02:02.3192284Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.8429898 miss=0
+- PRICES: ok=True ageMin=3.84379090833333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
-- RISK: ok=True status=pass reasons= trade_days_30d=21
+- RISK: ok=True status=pass reasons= trade_days_30d=20
 - MLR: ok=False
 
 ### System
@@ -23,10 +23,9 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=5
-  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-15T21:46:58.0000000Z
-  - FAIL task=LM-TruthGate-Hardening-StateNorm-5m rc=1 lastRunUtc=2026-03-15T21:43:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-15T21:42:57.0000000Z
+- Fails24hCount=4
+  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-15T22:01:58.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-15T21:57:57.0000000Z
   - FAIL task=LM-IBGW-SessionGuard-OnLogon rc=1 lastRunUtc=2026-03-15T20:58:17.0000000Z
   - FAIL task=LM-IBGW-SessionGuard-OnStart rc=1 lastRunUtc=2026-03-15T20:57:48.0000000Z
 
