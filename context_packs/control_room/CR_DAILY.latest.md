@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-17 (UTC=2026-03-17T04:17:02.2753652Z)
+## CR_DAILY v1 — 2026-03-17 (UTC=2026-03-17T04:32:02.3792049Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=17.85065683 miss=0
+- PRICES: ok=True ageMin=3.83663675166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
 - MLR: ok=False
@@ -18,15 +18,14 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=128.2 freePct=13.8 label=
-- D: freeGB=432.8 freePct=46.7 label=DATA
+- D: freeGB=432.1 freePct=46.6 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=4
-- Fails24hCount=3
-  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-17T04:16:58.0000000Z
-  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-03-17T04:15:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-17T04:12:57.0000000Z
+- RunningCount=2
+- Fails24hCount=2
+  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-17T04:31:58.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-17T04:27:57.0000000Z
 
 ### Notes (manual)
 # NOTES
@@ -125,4 +124,4 @@
 * `ibgw_4002_listen=false` בזמן `mw=CLOSED` — צפוי; לא חוסם (Fail-Closed).
 * ROI להמשך: PreOpen/OPEN kit לניהול IBGW/4002 לפי חלון מסחר בלי false-fails.
 
-DATAQ_CONTRACT ok=False status=fail missing=2 suffixUS=0 dup=0
+DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
