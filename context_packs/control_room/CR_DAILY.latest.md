@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-17 (UTC=2026-03-17T03:47:01.8690885Z)
+## CR_DAILY v1 — 2026-03-17 (UTC=2026-03-17T04:02:01.8551943Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.8344264883333 miss=0
+- PRICES: ok=False ageMin=2.84297528833333 miss=2
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
 - MLR: ok=False
@@ -23,9 +23,10 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=2
-  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-17T03:46:58.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-17T03:42:57.0000000Z
+- Fails24hCount=3
+  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-17T04:01:58.0000000Z
+  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-03-17T04:00:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-17T03:57:57.0000000Z
 
 ### Notes (manual)
 # NOTES
@@ -124,4 +125,4 @@
 * `ibgw_4002_listen=false` בזמן `mw=CLOSED` — צפוי; לא חוסם (Fail-Closed).
 * ROI להמשך: PreOpen/OPEN kit לניהול IBGW/4002 לפי חלון מסחר בלי false-fails.
 
-DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
+DATAQ_CONTRACT ok=False status=fail missing=2 suffixUS=0 dup=0
