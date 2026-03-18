@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-18 (UTC=2026-03-18T20:17:02.1718424Z)
+## CR_DAILY v1 — 2026-03-18 (UTC=2026-03-18T20:32:03.6234964Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=31084 session=1)
-- DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=18.8642649516667 miss=0
+- IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
+- DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
+- PRICES: ok=True ageMin=3.85658151166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=23
 - MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
@@ -17,16 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=124.5 freePct=13.4 label=
+- C: freeGB=123.5 freePct=13.3 label=
 - D: freeGB=422.4 freePct=45.5 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=6
-- Fails24hCount=4
-  - FAIL task=LM_MD_Refresh_OPEN_1m rc=2147946720 lastRunUtc=2026-03-18T20:17:01.0000000Z
-  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-18T20:16:58.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-18T20:12:57.0000000Z
+- RunningCount=3
+- Fails24hCount=3
+  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-03-18T20:31:58.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-18T20:27:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-03-18T13:35:00.0000000Z
 
 ### Notes (manual)
