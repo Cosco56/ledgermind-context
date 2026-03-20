@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-20 (UTC=2026-03-20T11:02:02.8582447Z)
+## CR_DAILY v1 — 2026-03-20 (UTC=2026-03-20T11:17:02.8381610Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=3.83808936833333 miss=0
+- PRICES: ok=True ageMin=18.8374775433333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -24,7 +24,7 @@
 ### Tasks
 - RunningCount=3
 - Fails24hCount=2
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-20T10:57:57.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-20T11:12:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-03-19T13:35:00.0000000Z
 
 ### Notes (manual)
