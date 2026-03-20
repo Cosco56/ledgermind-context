@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-20 (UTC=2026-03-20T19:17:02.1669043Z)
+## CR_DAILY v1 — 2026-03-20 (UTC=2026-03-20T19:32:02.0030998Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=43160 session=1)
 - DATAQ: mw=OPEN dhs=PASS allow=False reason=ok
-- PRICES: ok=True ageMin=18.8602322016667 miss=0
+- PRICES: ok=True ageMin=3.87033509666667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,15 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=133.8 freePct=14.4 label=
+- C: freeGB=133.7 freePct=14.4 label=
 - D: freeGB=409.5 freePct=44.1 label=DATA
 - E: freeGB=1584 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=5
-- Fails24hCount=2
-  - FAIL task=LM_MD_Refresh_OPEN_1m rc=2147946720 lastRunUtc=2026-03-20T19:17:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-20T19:12:57.0000000Z
+- RunningCount=6
+- Fails24hCount=1
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-20T19:27:57.0000000Z
 
 ### Notes (manual)
 # NOTES
