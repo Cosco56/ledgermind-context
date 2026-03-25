@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-03-25 (UTC=2026-03-25T18:02:01.8838899Z)
+## CR_DAILY v1 — 2026-03-25 (UTC=2026-03-25T18:17:01.8841716Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=36368 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=3.86008079666667 miss=0
+- PRICES: ok=True ageMin=18.8539139533333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
@@ -17,14 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=131.9 freePct=14.2 label=: DATA
+- C: freeGB=131.7 freePct=14.2 label=: DATA
 - D: freeGB=378.6 freePct=40.8 label=DATA
 - E: freeGB=1583.1 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=6
-- Fails24hCount=3
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-25T17:57:57.0000000Z
+- Fails24hCount=4
+  - FAIL task=LM_MD_Refresh_OPEN_1m rc=2147946720 lastRunUtc=2026-03-25T18:17:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-03-25T18:12:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-03-25T13:35:00.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-03-24T21:57:01.0000000Z
 
