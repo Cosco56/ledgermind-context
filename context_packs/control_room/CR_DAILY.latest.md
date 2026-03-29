@@ -1,13 +1,13 @@
-## CR_DAILY v1 — 2026-03-29 (UTC=2026-03-29T18:47:01.8235578Z)
+## CR_DAILY v1 — 2026-03-29 (UTC=2026-03-29T19:02:02.3815560Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=1548.85817105667 miss=0
+- PRICES: ok=True ageMin=1563.860296575 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
-- MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
+- MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
 
 ### System
 - CPU=Intel(R) Core(TM) i7-14700F Cores=20 LP=28
@@ -22,10 +22,9 @@
 - E: freeGB=1583.9 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=4
-- Fails24hCount=4
-  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=267014 lastRunUtc=2026-03-29T18:47:01.0000000Z
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-03-29T18:44:01.0000000Z
+- RunningCount=3
+- Fails24hCount=3
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-03-29T18:59:01.0000000Z
   - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-03-29T12:11:40.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-03-28T20:57:01.0000000Z
 
