@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-04-02 (UTC=2026-04-02T18:47:01.8422631Z)
+## CR_DAILY v1 — 2026-04-02 (UTC=2026-04-02T19:02:02.1852567Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=55264 session=1)
 - DATAQ: mw=OPEN dhs=PASS allow=False reason=ok
-- PRICES: ok=True ageMin=18.8998945916667 miss=0
+- PRICES: ok=True ageMin=3.91034065333333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=19
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -22,11 +22,10 @@
 - E: freeGB=1583.8 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=6
-- Fails24hCount=4
-  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-02T18:47:02.0000000Z
-  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=2147946720 lastRunUtc=2026-04-02T18:47:01.0000000Z
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-02T18:44:01.0000000Z
+- RunningCount=7
+- Fails24hCount=3
+  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-02T19:02:01.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-02T18:59:01.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-01T20:57:02.0000000Z
 
 ### Notes (manual)
