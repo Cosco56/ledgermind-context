@@ -1,12 +1,12 @@
-## CR_DAILY v1 — 2026-04-10 (UTC=2026-04-10T13:47:01.7509405Z)
+## CR_DAILY v1 — 2026-04-10 (UTC=2026-04-10T14:02:01.7303617Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=41936 session=1)
-- DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.9195892216667 miss=0
+- DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
+- PRICES: ok=True ageMin=3.93068033666667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
-- RISK: ok=False status=fail reasons=pnl_stale_days:14.658>7 trade_days_30d=13
+- RISK: ok=False status=fail reasons=pnl_stale_days:14.668>7 trade_days_30d=13
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
 
 ### System
@@ -17,17 +17,18 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=117.6 freePct=12.6 label=: DATA
+- C: freeGB=117.5 freePct=12.6 label=: DATA
 - D: freeGB=282 freePct=30.4 label=DATA
 - E: freeGB=1583.2 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=5
-- Fails24hCount=6
-  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-10T13:47:01.0000000Z
-  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-10T13:46:21.0000000Z
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-10T13:44:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-10T13:42:57.0000000Z
+- RunningCount=7
+- Fails24hCount=7
+  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-10T14:02:01.0000000Z
+  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=2147946720 lastRunUtc=2026-04-10T14:02:01.0000000Z
+  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-10T14:01:21.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-10T13:59:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-10T13:57:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-04-10T12:35:00.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-09T20:57:01.0000000Z
 
