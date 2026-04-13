@@ -1,12 +1,12 @@
-## CR_DAILY v1 — 2026-04-13 (UTC=2026-04-13T17:47:02.6375223Z)
+## CR_DAILY v1 — 2026-04-13 (UTC=2026-04-13T18:02:02.8345193Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=63032 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=18.9192444816667 miss=0
+- PRICES: ok=True ageMin=3.91807330333333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
-- RISK: ok=False status=fail reasons=pnl_stale_days:17.824>7 trade_days_30d=10
+- RISK: ok=False status=fail reasons=pnl_stale_days:17.835>7 trade_days_30d=10
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
 
 ### System
@@ -22,14 +22,13 @@
 - E: freeGB=1583.2 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=7
-- Fails24hCount=8
-  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-13T17:47:01.0000000Z
-  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=2147946720 lastRunUtc=2026-04-13T17:47:01.0000000Z
-  - FAIL task=LM_MD_Refresh_OPEN_1m rc=2147946720 lastRunUtc=2026-04-13T17:47:01.0000000Z
-  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-13T17:46:21.0000000Z
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-13T17:44:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-13T17:42:57.0000000Z
+- RunningCount=6
+- Fails24hCount=7
+  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-13T18:02:01.0000000Z
+  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=267014 lastRunUtc=2026-04-13T18:02:01.0000000Z
+  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-13T18:01:21.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-13T17:59:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-13T17:57:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-04-13T12:35:00.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-12T20:57:01.0000000Z
 
