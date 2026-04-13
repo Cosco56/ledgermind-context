@@ -1,12 +1,12 @@
-## CR_DAILY v1 — 2026-04-13 (UTC=2026-04-13T13:47:02.6265446Z)
+## CR_DAILY v1 — 2026-04-13 (UTC=2026-04-13T14:02:02.6214236Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=63032 session=1)
-- DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=18.9097140233333 miss=0
+- DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
+- PRICES: ok=True ageMin=3.90616448166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
-- RISK: ok=False status=fail reasons=pnl_stale_days:17.658>7 trade_days_30d=10
+- RISK: ok=False status=fail reasons=pnl_stale_days:17.668>7 trade_days_30d=10
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
 
 ### System
@@ -16,18 +16,15 @@
 - Power=Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))
 
 ### Volumes
-- B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=114.6 freePct=12.3 label=: DATA
-- D: freeGB=264.1 freePct=28.5 label=DATA
-- E: freeGB=1583.2 freePct=85.1 label=LM-Data
 
 ### Tasks
-- RunningCount=5
-- Fails24hCount=6
-  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-13T13:47:01.0000000Z
-  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-13T13:46:21.0000000Z
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-13T13:44:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-13T13:42:57.0000000Z
+- RunningCount=7
+- Fails24hCount=7
+  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=13 lastRunUtc=2026-04-13T14:02:01.0000000Z
+  - FAIL task=LM-TX-Recon-ExportsWriter-1m rc=2147946720 lastRunUtc=2026-04-13T14:02:01.0000000Z
+  - FAIL task=LM-DataQ-Market-RefreshWrap-1m rc=1 lastRunUtc=2026-04-13T14:01:21.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-13T13:59:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-13T13:57:57.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-04-13T12:35:00.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-12T20:57:01.0000000Z
 
