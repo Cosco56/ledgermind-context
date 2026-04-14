@@ -1,12 +1,12 @@
-## CR_DAILY v1 — 2026-04-14 (UTC=2026-04-14T20:47:02.5161680Z)
+## CR_DAILY v1 — 2026-04-14 (UTC=2026-04-14T21:02:02.4252800Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=24708.88507116 miss=0
+- PRICES: ok=True ageMin=24723.8849084317 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
-- RISK: ok=False status=fail reasons=pnl_stale_days:18.949>7 trade_days_30d=10
+- RISK: ok=False status=fail reasons=pnl_stale_days:18.96>7 trade_days_30d=10
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
 
 ### System
@@ -17,17 +17,17 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=113.4 freePct=12.2 label=: DATA
+- C: freeGB=113.2 freePct=12.2 label=: DATA
 - D: freeGB=257.9 freePct=27.8 label=DATA
 - E: freeGB=1583.2 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=3
 - Fails24hCount=4
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-14T20:44:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-14T20:42:57.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-14T20:59:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-14T20:57:57.0000000Z
+  - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-14T20:57:01.0000000Z
   - FAIL task=LM-IBGW-ApiCheck-PreOpen-1535 rc=2 lastRunUtc=2026-04-14T12:35:00.0000000Z
-  - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-13T20:57:01.0000000Z
 
 ### Notes (manual)
 # NOTES
