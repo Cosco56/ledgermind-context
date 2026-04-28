@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-04-28 (UTC=2026-04-28T05:02:01.6432650Z)
+## CR_DAILY v1 — 2026-04-28 (UTC=2026-04-28T05:17:03.4859512Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -17,15 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=104.6 freePct=11.2 label=: DATA
+- C: freeGB=106 freePct=11.4 label=: DATA
 - D: freeGB=165.2 freePct=17.8 label=DATA
 - E: freeGB=1583 freePct=85.1 label=LM-Data
 
 ### Tasks
 - RunningCount=3
 - Fails24hCount=5
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-28T04:59:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-28T04:57:57.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-28T05:14:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-28T05:12:57.0000000Z
   - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-04-27T22:49:55.0000000Z
   - FAIL task=LM-EOD-Orchestrator-OnStart rc=1 lastRunUtc=2026-04-27T22:37:55.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-27T20:57:01.0000000Z
