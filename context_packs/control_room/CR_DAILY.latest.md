@@ -1,4 +1,4 @@
-## CR_DAILY v1 — 2026-04-28 (UTC=2026-04-28T04:02:02.0723821Z)
+## CR_DAILY v1 — 2026-04-28 (UTC=2026-04-28T04:17:01.9233591Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
@@ -24,8 +24,8 @@
 ### Tasks
 - RunningCount=3
 - Fails24hCount=5
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-28T03:59:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-28T03:57:57.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-04-28T04:14:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-04-28T04:12:57.0000000Z
   - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-04-27T22:49:55.0000000Z
   - FAIL task=LM-EOD-Orchestrator-OnStart rc=1 lastRunUtc=2026-04-27T22:37:55.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-04-27T20:57:01.0000000Z
