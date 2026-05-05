@@ -1,7 +1,7 @@
 {
   "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-05-05T22:32:01.6577017Z",
+  "ts_utc": "2026-05-05T22:47:01.6594795Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -14,7 +14,7 @@
   "ibgw_4002_listen_meta": {
     "source": "inline_probe",
     "source_path": null,
-    "source_generated_utc": "2026-05-05T22:32:01.6577017Z",
+    "source_generated_utc": "2026-05-05T22:47:01.6594795Z",
     "source_age_sec": 0,
     "source_state": "inline_probe",
     "sensor_value": null,
@@ -28,32 +28,7 @@
     "NumberOfLogicalProcessors": 28
   },
   "ram_gb": 128.0,
-  "volumes": [
-    {
-      "DriveLetter": "B",
-      "FileSystemLabel": "BIOS",
-      "Size": 4282384384,
-      "SizeRemaining": 4257189888
-    },
-    {
-      "DriveLetter": "C",
-      "FileSystemLabel": ": DATA",
-      "Size": 999215329280,
-      "SizeRemaining": 118319984640
-    },
-    {
-      "DriveLetter": "D",
-      "FileSystemLabel": "DATA",
-      "Size": 995890298880,
-      "SizeRemaining": 118598402048
-    },
-    {
-      "DriveLetter": "E",
-      "FileSystemLabel": "LM-Data",
-      "Size": 1998234652672,
-      "SizeRemaining": 1699737919488
-    }
-  ],
+  "volumes": null,
   "net_realtek": {
     "Name": "‏‏Ethernet",
     "LinkSpeed": "1 Gbps",
@@ -123,7 +98,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-05-05T22:31:21.3562813Z",
+    "updated_utc": "2026-05-05T22:46:21.4983197Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -135,7 +110,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-05-05T22:31:02.5517475Z",
+      "updated_utc": "2026-05-05T22:46:02.4169052Z",
       "age_sec": 19.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -146,7 +121,7 @@
     "timefmt_fix_writeatomic": "LM_POST_WRITEATOMIC_UTCZ_v1",
     "market_open_utc": "2026-05-05T13:30:00Z",
     "market_close_utc": "2026-05-05T20:00:00Z",
-    "now_utc": "2026-05-05T22:31:21Z",
+    "now_utc": "2026-05-05T22:46:21Z",
     "timefmt_fix_final": "LM_DATAQ_UTCZ_EXITFINAL_v1",
     "contract_gate": {
       "ok": true,
@@ -161,16 +136,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "3FD418CC712A112B4A73D13DB992CE6A9FA222A5EC6C65C0E2B67CFD65B98FD1",
-        "lw_utc": "2026-05-05T22:30:02.5638323Z",
+        "sha256": "3347A6907B42291FCC5DF012C3AE86209CA4EF7B66683ED9EAD9FA028167515C",
+        "lw_utc": "2026-05-05T22:45:02.6866013Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-05-06T01:29:00.384527+03:00",
-    "generated_utc": "2026-05-05T22:29:00.385171Z",
+    "generated_at": "2026-05-06T01:43:59.8801946+03:00",
+    "generated_utc": "2026-05-05T22:43:59.880806Z",
     "business_date": "2026-05-05",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -179,7 +154,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-03-27.csv",
-      "age_min": 55053.91263012167,
+      "age_min": 55068.904207365,
       "max_age_min": 180.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -199,11 +174,11 @@
       "outliers": []
     },
     "reasons": [
-      "prices_stale_caution age_min=55,053.9 > max=180"
+      "prices_stale_caution age_min=55,068.9 > max=180"
     ]
   },
   "truth_gate": {
-    "generated_utc": "2026-05-05T22:31:12.6433426Z",
+    "generated_utc": "2026-05-05T22:46:12.6413359Z",
     "status": "pass",
     "allow_new_orders": false,
     "allow": false,
@@ -213,7 +188,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-05-05T22:31:01.3687518Z",
+    "generated_utc": "2026-05-05T22:46:01.288277Z",
     "enabled": true,
     "status": "fail",
     "ok": false,
@@ -268,8 +243,8 @@
   "micro_live_ready": {
     "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-05-05T22:29:02.3987802Z",
-    "refreshed_utc": "2026-05-05T22:29:02.3987802Z",
+    "generated_utc": "2026-05-05T22:44:01.915737Z",
+    "refreshed_utc": "2026-05-05T22:44:01.915737Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -281,7 +256,7 @@
       "policy_gate": "C:\\ledgermind\\data\\tx\\gates\\tx_micro_policy_gate.latest.json"
     },
     "meta": {
-      "pnl_card_age_min": 0.66,
+      "pnl_card_age_min": 0.65,
       "pnl_card_max_age_min": 45
     },
     "reason_meta": {
@@ -290,12 +265,12 @@
       "source_reason": null,
       "source_status": "pass",
       "source_ok": true,
-      "source_generated_utc": "05/05/2026 22:30:03",
+      "source_generated_utc": "05/05/2026 22:40:03",
       "source_reasons": null,
       "backward_compat": "existing_reasons_preserved"
     }
   },
-  "pnl_card_lwutc": "2026-05-05T22:28:22.9124611Z",
+  "pnl_card_lwutc": "2026-05-05T22:43:22.8544359Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
     "LM-OPEN-BarsEvidence-OPEN-1m",
@@ -304,12 +279,12 @@
   "tasks_fails_24h": [
     {
       "task": "LM-TXMicro-OrdersToTradeDay-5m",
-      "lastRunUtc": "2026-05-05T22:29:01Z",
+      "lastRunUtc": "2026-05-05T22:44:01Z",
       "rc": 1
     },
     {
       "task": "LM-Ops-ObservabilitySmoke-5m",
-      "lastRunUtc": "2026-05-05T22:27:57Z",
+      "lastRunUtc": "2026-05-05T22:42:57Z",
       "rc": 1
     },
     {
@@ -331,8 +306,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "3FD418CC712A112B4A73D13DB992CE6A9FA222A5EC6C65C0E2B67CFD65B98FD1",
-      "lw_utc": "2026-05-05T22:30:02.5638323Z",
+      "sha256": "3347A6907B42291FCC5DF012C3AE86209CA4EF7B66683ED9EAD9FA028167515C",
+      "lw_utc": "2026-05-05T22:45:02.6866013Z",
       "bytes": 1080
     }
   }
