@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-05-16 (UTC=2026-05-16T06:02:02.9981892Z)
+## CR_DAILY v1 — 2026-05-16 (UTC=2026-05-16T06:17:04.7329580Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=69903.92008732 miss=0
+- PRICES: ok=True ageMin=69921.81888812 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=False status=fail reasons=insufficient_trade_days_30d:0<10,pnl_stale_days:29.999>7 trade_days_30d=0
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,16 +17,23 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=89 freePct=9.6 label=: DATA
+- C: freeGB=91.6 freePct=9.8 label=: DATA
 - D: freeGB=905.3 freePct=97.6 label=DATA
 - E: freeGB=1560.1 freePct=83.8 label=LM-Data
 
 ### Tasks
-- RunningCount=3
-- Fails24hCount=3
-  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-05-16T05:59:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-05-16T05:57:57.0000000Z
-  - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-05-15T20:57:01.0000000Z
+- RunningCount=5
+- Fails24hCount=10
+  - FAIL task=LM-ControlRoom-Build-5m rc=2147943515 lastRunUtc=2026-05-16T06:15:01.0000000Z
+  - FAIL task=LM-DataQ-ContractGate-5m rc=2147943515 lastRunUtc=2026-05-16T06:15:01.0000000Z
+  - FAIL task=LM-DataQ-PricesTruth-Refresh-5m rc=2147943515 lastRunUtc=2026-05-16T06:15:01.0000000Z
+  - FAIL task=LM-TX-Attrib-Latency-5m rc=2147943515 lastRunUtc=2026-05-16T06:15:01.0000000Z
+  - FAIL task=LM-TX-ExecState-Project-5m rc=2147943515 lastRunUtc=2026-05-16T06:15:01.0000000Z
+  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=2147943515 lastRunUtc=2026-05-16T06:13:01.0000000Z
+  - FAIL task=LM-TruthGate-Hardening-Sentinel-5m rc=2147943515 lastRunUtc=2026-05-16T06:13:01.0000000Z
+  - FAIL task=LM-TruthGate-Hardening-StateNorm-5m rc=2147943515 lastRunUtc=2026-05-16T06:13:01.0000000Z
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=2147943515 lastRunUtc=2026-05-16T06:12:57.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=1 lastRunUtc=2026-05-16T06:09:02.0000000Z
 
 ### Notes (manual)
 # NOTES
