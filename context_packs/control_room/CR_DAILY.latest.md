@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-01 (UTC=2026-06-01T13:02:03.7500083Z)
+## CR_DAILY v1 — 2026-06-01 (UTC=2026-06-01T13:17:03.6778599Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=123508 session=1)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=4.02092156333333 miss=0
+- PRICES: ok=True ageMin=19.0043482416667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=20
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -23,8 +23,7 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=1
-  - FAIL task=LM-DataQ-RealtimeGateWriter-1m rc=1 lastRunUtc=2026-06-01T13:02:01.0000000Z
+- Fails24hCount=0
 
 ### Notes (manual)
 # NOTES
