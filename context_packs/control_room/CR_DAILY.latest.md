@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-13 (UTC=2026-06-13T17:32:03.1250120Z)
+## CR_DAILY v1 — 2026-06-13 (UTC=2026-06-13T17:47:03.9319710Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=False ageMin=110913.987478813 miss=0
+- PRICES: ok=False ageMin=110929.028619058 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
@@ -17,12 +17,12 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=65.5 freePct=7 label=: DATA
+- C: freeGB=152.1 freePct=16.3 label=: DATA
 - D: freeGB=901.3 freePct=97.2 label=DATA
-- E: freeGB=831.6 freePct=44.7 label=LM-Data
+- E: freeGB=830.6 freePct=44.6 label=LM-Data
 
 ### Tasks
-- RunningCount=2
+- RunningCount=3
 - Fails24hCount=0
 
 ### Notes (manual)
@@ -121,5 +121,44 @@
 
 * `ibgw_4002_listen=false` בזמן `mw=CLOSED` — צפוי; לא חוסם (Fail-Closed).
 * ROI להמשך: PreOpen/OPEN kit לניהול IBGW/4002 לפי חלון מסחר בלי false-fails.
+
+## 2026-06-13 Phase B Non-Git Pilot Closeout — record-only
+
+```text
+PHASE_B_NON_GIT_PILOT_CLOSEOUT_RECORD_ONLY_v0 =
+ACCEPTED_RECORD_LOCK /
+PHASE_B_NON_GIT_PILOT_CLOSEOUT_COMPLETE /
+BASIS=PHASE_B_NON_GIT_P1_PATCH_POST_VERIFY_READONLY_PASS_v0 /
+P1_SECRET_PATTERN_COVERAGE_VERIFIED /
+CLIENT_SECRET_ASSERTION_EQUIVALENT_VERIFIED /
+NON_GIT_ISOLATED_FOLDER_ONLY /
+DOCS_TESTS_ONLY /
+NO_PROMOTION_TO_C_LEDGEMIND /
+NO_WRITE /
+NO_DIFF /
+NO_APPLY /
+NO_TEST_RUN /
+NO_GITLEAKS_RERUN /
+NO_AGENT_ACTIVATION /
+NO_MCP_ACTIVATION /
+NO_BRANCH /
+NO_COMMIT /
+NO_PR /
+NO_RUNTIME /
+NO_BROKER /
+NO_ORDER /
+NO_TRADE /
+FAIL_CLOSED_REMAINS
+
+Verified file: C:\ledgermind-dev\non_git_pilots\techaccel-phaseb-20260612-01\tests\tech_acceleration\agent_policy.protected_paths.tests.ps1
+Bytes=1960
+LastWriteTimeUtc=2026-06-13T16:36:56.9901384Z
+SHA256=E00A9FF62CD3D8CA603589B245A11702CD87858AB478AA6235B9EB5D61F59FEF
+ContainsExplicitSecretCoverage=true
+ContainsClientSecretAssertionEquivalent=true
+
+Posture preserved: NO_UNLOCK / NO_TRADE / NOWRITE required / allow_new_trades=false / allow_new_orders=false
+D10 remains governance milestone only, not unlock and not trading permission.
+```
 
 DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
