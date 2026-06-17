@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-17 (UTC=2026-06-17T19:02:02.6196389Z)
+## CR_DAILY v1 — 2026-06-17 (UTC=2026-06-17T19:17:02.4314709Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=26492 session=1)
 - DATAQ: mw=OPEN dhs=PASS allow=False reason=ok
-- PRICES: ok=True ageMin=4.00355823 miss=0
+- PRICES: ok=True ageMin=18.9929299416667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=23
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -23,7 +23,8 @@
 
 ### Tasks
 - RunningCount=5
-- Fails24hCount=0
+- Fails24hCount=1
+  - FAIL task=LM-TruthGate-Hardening-StateNorm-5m rc=1 lastRunUtc=2026-06-17T19:13:01.0000000Z
 
 ### Notes (manual)
 # NOTES
