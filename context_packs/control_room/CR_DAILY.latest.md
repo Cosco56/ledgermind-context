@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-19 (UTC=2026-06-19T14:02:02.0678113Z)
+## CR_DAILY v1 — 2026-06-19 (UTC=2026-06-19T14:17:02.1329785Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=HOLIDAY dhs=PASS allow=False reason=market_window=HOLIDAY
-- PRICES: ok=True ageMin=3.99035900666667 miss=0
+- PRICES: ok=True ageMin=18.9910750566667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,7 +17,7 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=737.3 freePct=79.2 label=: DATA
+- C: freeGB=737.2 freePct=79.2 label=: DATA
 - D: freeGB=900.4 freePct=97.1 label=DATA
 - E: freeGB=837.7 freePct=45 label=LM-Data
 
@@ -162,3 +162,43 @@ D10 remains governance milestone only, not unlock and not trading permission.
 ```
 
 DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
+
+<!-- LM_RECORD:DATAQ_OPEN_GAP_FALSE_FAIL_CLOSEOUT_BEGIN -->
+## LedgerMind DataQ OPEN Gap False-Fail Closeout — Record Repair
+
+record_id: LM_DATAQ_OPEN_GAP_FALSE_FAIL_CLOSEOUT_RECORD_REPAIR_v1
+recorded_utc: 2026-06-19T12:12:04.8148543Z
+status: CLOSED / PASS / RECORD_SYNC_REPAIRED
+
+Closed chain:
+1. LM_DATAQ_OVERRIDE_JSON_DEPTH100_PATCH_APPLY_v1 = PASS
+2. LM_DATAQ_OPEN_GAP_CLOSEOUT_RECORD_SYNC_CR_ONLY_v2 = PASS
+3. LM_DATAQ_OPEN_GAP_CLOSEOUT_RECORD_SYNC_BUNDLE_LATEST_ONLY_v1 = PASS
+
+Final target:
+C:\ledgermind\tools\lm-dataq.market.refresh_wrap_1m.ps1
+SHA256: 3F144F7C0C170DC75CA72E9EC38796E2FA590F7CDD53957E18FAF735049CC3E4
+
+Result:
+DATAQ_OPEN_GAPS_FALSE_FAIL_CLEARED
+current_verify_market_window=HOLIDAY
+current_verify_data_health_status=PASS
+current_verify_status=OFF
+current_verify_trade_ready_reason=market_window=HOLIDAY
+current_verify_gappy_count=0
+current_verify_gappy_symbols_empty=True
+current_verify_allow_new_trades=False
+current_verify_reasons=stale_config:age_sec=6752938 + offhours_relax:ttl_bars=86400 ttl_provider=86400 gap=False + nowrite_lock
+
+TruthGate:
+allow_new_orders=False
+reduce_only=True
+reason=nowrite_lock
+
+Root cause:
+Override write path was swallowed by ConvertTo-Json -Depth 200.
+Depth100 patch fixed the write path.
+
+Posture:
+NO_UNLOCK / NO_ORDER / NO_TRADE / FAIL_CLOSED_REMAINS
+<!-- LM_RECORD:DATAQ_OPEN_GAP_FALSE_FAIL_CLOSEOUT_END -->
