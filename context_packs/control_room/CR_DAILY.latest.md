@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-19 (UTC=2026-06-19T15:47:01.7825777Z)
+## CR_DAILY v1 — 2026-06-19 (UTC=2026-06-19T16:02:02.3092629Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=HOLIDAY dhs=PASS allow=False reason=market_window=HOLIDAY
-- PRICES: ok=True ageMin=19.000947045 miss=0
+- PRICES: ok=True ageMin=4.003813195 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -16,6 +16,10 @@
 - Power=Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))
 
 ### Volumes
+- B: freeGB=4 freePct=99.4 label=BIOS
+- C: freeGB=737.3 freePct=79.2 label=: DATA
+- D: freeGB=900.4 freePct=97.1 label=DATA
+- E: freeGB=837.7 freePct=45 label=LM-Data
 
 ### Tasks
 - RunningCount=4
