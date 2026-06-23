@@ -1,13 +1,13 @@
-## CR_DAILY v1 — 2026-06-23 (UTC=2026-06-23T01:47:02.5620264Z)
+## CR_DAILY v1 — 2026-06-23 (UTC=2026-06-23T02:02:02.5638153Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=124368.96078397 miss=0
+- PRICES: ok=True ageMin=124383.949668112 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
-- MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
+- MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
 
 ### System
 - CPU=Intel(R) Core(TM) i7-14700F Cores=20 LP=28
@@ -23,8 +23,7 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=1
-  - FAIL task=LM-Truth-Recon-ExportsLatest-1m rc=12 lastRunUtc=2026-06-23T01:47:01.0000000Z
+- Fails24hCount=0
 
 ### Notes (manual)
 # NOTES
