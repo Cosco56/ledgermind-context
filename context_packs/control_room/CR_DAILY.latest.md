@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-06-24 (UTC=2026-06-24T07:17:03.3700501Z)
+## CR_DAILY v1 — 2026-06-24 (UTC=2026-06-24T07:32:03.1669241Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=PASS allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=19.0107232516667 miss=0
+- PRICES: ok=True ageMin=4.03197873666667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -22,7 +22,7 @@
 - E: freeGB=837.7 freePct=45 label=LM-Data
 
 ### Tasks
-- RunningCount=4
+- RunningCount=2
 - Fails24hCount=0
 
 ### Notes (manual)
@@ -202,3 +202,52 @@ Depth100 patch fixed the write path.
 Posture:
 NO_UNLOCK / NO_ORDER / NO_TRADE / FAIL_CLOSED_REMAINS
 <!-- LM_RECORD:DATAQ_OPEN_GAP_FALSE_FAIL_CLOSEOUT_END -->
+
+<!-- LM_RECORD:DATAQ_TICK_CONTRACT_HYGIENE_CLOSEOUT_BEGIN -->
+## LedgerMind DATAQ Tick Contract + Hygiene Closeout
+
+record_id: LM_DATAQ_TICK_CONTRACT_HYGIENE_CLOSEOUT_RECORD_SYNC_v1
+recorded_utc: 2026-06-23T18:36:45Z
+mode: RECORD_ONLY / NO_OPERATIONAL_EFFECT / NO_TASK_CHANGE / NO_UNLOCK / NO_ORDER / NO_TRADE / FAIL_CLOSED_REMAINS
+
+Canonical result:
+LM_DATAQ_TICK_STATUS_CONTRACT_HARDEN_V1 =
+APPLIED / VERIFIED_PASS_READONLY / STATUS_MISSING_CLOSED / FAIL_CLOSED_REMAINS
+
+LM_DATAQ_TICK_HYGIENE_DEFAULT_FIELDS_PATCH_V1 =
+APPLIED / VERIFY_PASS / TOP_REASON_PRESENT / OPEN_RECENCY_READY_EFF_PRESENT / FAIL_CLOSED_REMAINS
+
+LM_CR_RECORD_PERSISTENCE_VERIFY_v1 =
+PASS / RECORD_PERSISTED / FAIL_CLOSED_REMAINS
+
+Target:
+C:\ledgermind\tools\lm-md-dataq.tick.ps1
+
+Final SHA256:
+939E48107115E170BBD046595ABBDD9EB376B05BC5DD712127D52B62CF2D6CE8
+
+Readonly drift verify:
+RESULT=PASS_CLOSEOUT_STABLE_FAIL_CLOSED_REMAINS
+DATAQ market_window=OPEN
+DATAQ status=PASS
+DATAQ data_health_status=PASS
+DATAQ top_reason=openready_v2|open_recency_ready_eff
+DATAQ open_recency_ready_eff=True
+DATAQ allow_new_trades=False
+TruthGate status=pass
+TruthGate allow_new_orders=False
+TruthGate reduce_only=True
+TruthGate reason=nowrite_lock
+NOWRITE_PRESENT=True
+
+Closed:
+P1 DATAQ status transient missing
+P1 DATAQ base-write hygiene missing fields
+
+No rollback required for runtime.
+No task mutation.
+No runtime unlock.
+No order.
+No trade.
+Fail-Closed remains.
+<!-- LM_RECORD:DATAQ_TICK_CONTRACT_HYGIENE_CLOSEOUT_END -->
