@@ -1,7 +1,7 @@
 {
   "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-07-01T12:32:02.7080475Z",
+  "ts_utc": "2026-07-01T12:47:02.6592886Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -14,7 +14,7 @@
   "ibgw_4002_listen_meta": {
     "source": "inline_probe",
     "source_path": null,
-    "source_generated_utc": "2026-07-01T12:32:02.7080475Z",
+    "source_generated_utc": "2026-07-01T12:47:02.6592886Z",
     "source_age_sec": 0,
     "source_state": "inline_probe",
     "sensor_value": null,
@@ -28,7 +28,32 @@
     "NumberOfLogicalProcessors": 28
   },
   "ram_gb": 128.0,
-  "volumes": null,
+  "volumes": [
+    {
+      "DriveLetter": "B",
+      "FileSystemLabel": "BIOS",
+      "Size": 4282384384,
+      "SizeRemaining": 4257189888
+    },
+    {
+      "DriveLetter": "C",
+      "FileSystemLabel": ": DATA",
+      "Size": 999215329280,
+      "SizeRemaining": 788246884352
+    },
+    {
+      "DriveLetter": "D",
+      "FileSystemLabel": "DATA",
+      "Size": 995907072000,
+      "SizeRemaining": 964963127296
+    },
+    {
+      "DriveLetter": "E",
+      "FileSystemLabel": "LM-Data",
+      "Size": 1998234652672,
+      "SizeRemaining": 952504524800
+    }
+  ],
   "net_realtek": {
     "Name": "‏‏Ethernet",
     "LinkSpeed": "1 Gbps",
@@ -98,7 +123,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-07-01T12:31:21.9658585Z",
+    "updated_utc": "2026-07-01T12:46:22.0315322Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -110,7 +135,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-07-01T12:31:02.3016464Z",
+      "updated_utc": "2026-07-01T12:46:02.3054429Z",
       "age_sec": 20.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -121,7 +146,7 @@
     "timefmt_fix_writeatomic": "LM_POST_WRITEATOMIC_UTCZ_v1",
     "market_open_utc": "2026-07-01T13:30:00Z",
     "market_close_utc": "2026-07-01T20:00:00Z",
-    "now_utc": "2026-07-01T12:31:22Z",
+    "now_utc": "2026-07-01T12:46:22Z",
     "timefmt_fix_final": "LM_DATAQ_UTCZ_EXITFINAL_v1",
     "contract_gate": {
       "ok": true,
@@ -136,16 +161,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "8731B24C523F4F216C45FDC37E54912C5C956AFB46DC339CCDB95EE892E166FC",
-        "lw_utc": "2026-07-01T12:30:01.7112413Z",
+        "sha256": "C7B9A8F923E17E4005B28B68093DA942175CAA277B920880CB0EF7EA993DD851",
+        "lw_utc": "2026-07-01T12:45:01.7261490Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-07-01T15:29:03.7688392+03:00",
-    "generated_utc": "2026-07-01T12:29:03.7695618Z",
+    "generated_at": "2026-07-01T15:44:04.0449089+03:00",
+    "generated_utc": "2026-07-01T12:44:04.0456232Z",
     "business_date": "2026-07-01",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -154,7 +179,7 @@
     "prices_source": {
       "mode": "prices_probe_log",
       "path": "C:\\ProgramData\\LM\\txmicro\\prices\\lm_txmicro_autoprices.script.log",
-      "age_min": 4.014203116666667,
+      "age_min": 19.018987733333333,
       "max_age_min": 180.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -176,7 +201,7 @@
     "reasons": []
   },
   "truth_gate": {
-    "generated_utc": "2026-07-01T12:31:12.3561595Z",
+    "generated_utc": "2026-07-01T12:46:12.3857781Z",
     "status": "pass",
     "allow_new_orders": false,
     "allow": false,
@@ -186,7 +211,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-07-01T12:32:02.8967Z",
+    "generated_utc": "2026-07-01T12:47:02.8731231Z",
     "enabled": true,
     "status": "pass",
     "ok": true,
@@ -221,25 +246,25 @@
       "max_recency_days": 7
     },
     "metrics": {
-      "trade_days_30d": 22,
-      "recency_days": 1.647,
-      "pnl_7d_pct": 0.0,
-      "pnl_1d_pct": 0.0,
-      "consec_loss_days": 0,
-      "pnl_1d": 0.0,
-      "dd_30d_pct": 0.0,
-      "dd_30d": 0.0,
-      "pnl_30d": 0.0,
-      "pnl_30d_pct": 0.0,
       "last_dt_utc": "2026-06-29T21:00:00Z",
-      "pnl_7d": 0.0
+      "pnl_1d_pct": 0.0,
+      "pnl_1d": 0.0,
+      "dd_30d": 0.0,
+      "pnl_7d": 0.0,
+      "pnl_30d_pct": 0.0,
+      "dd_30d_pct": 0.0,
+      "recency_days": 1.658,
+      "trade_days_30d": 22,
+      "consec_loss_days": 0,
+      "pnl_7d_pct": 0.0,
+      "pnl_30d": 0.0
     }
   },
   "micro_live_ready": {
     "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-07-01T12:29:02.7115907Z",
-    "refreshed_utc": "2026-07-01T12:29:02.7115907Z",
+    "generated_utc": "2026-07-01T12:44:02.796099Z",
+    "refreshed_utc": "2026-07-01T12:44:02.796099Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -260,15 +285,14 @@
       "source_reason": null,
       "source_status": "pass",
       "source_ok": true,
-      "source_generated_utc": "07/01/2026 12:30:03",
+      "source_generated_utc": "07/01/2026 12:40:03",
       "source_reasons": null,
       "backward_compat": "existing_reasons_preserved"
     }
   },
-  "pnl_card_lwutc": "2026-07-01T12:28:22.6384696Z",
+  "pnl_card_lwutc": "2026-07-01T12:43:22.6612866Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
-    "LM-DataQ-DailyReport-Normalize-30m",
     "LM-OPEN-BarsEvidence-OPEN-1m",
     "LM-OpenTasks-Switch-1m",
     "LM-TX-TruthGate-Eval-Writer-1m"
@@ -293,8 +317,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "8731B24C523F4F216C45FDC37E54912C5C956AFB46DC339CCDB95EE892E166FC",
-      "lw_utc": "2026-07-01T12:30:01.7112413Z",
+      "sha256": "C7B9A8F923E17E4005B28B68093DA942175CAA277B920880CB0EF7EA993DD851",
+      "lw_utc": "2026-07-01T12:45:01.7261490Z",
       "bytes": 1080
     }
   }
