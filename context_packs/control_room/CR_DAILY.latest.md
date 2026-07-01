@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-07-01 (UTC=2026-07-01T13:32:02.4626355Z)
+## CR_DAILY v1 — 2026-07-01 (UTC=2026-07-01T13:47:02.5668463Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=57804 session=1)
-- DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=4.01071068833333 miss=0
+- DATAQ: mw=OPEN dhs=PASS allow=False reason=override:gaps_selftest_tail_active_v1
+- PRICES: ok=True ageMin=19.0150886816667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -22,7 +22,7 @@
 - E: freeGB=887.1 freePct=47.7 label=LM-Data
 
 ### Tasks
-- RunningCount=6
+- RunningCount=5
 - Fails24hCount=1
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-06-30T20:57:01.0000000Z
 
