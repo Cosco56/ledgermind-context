@@ -406,3 +406,29 @@ known_good_sha256:
 - nowrite_present: True
 - gate_present: False
 <!-- /LM_EOD_20260212 -->
+
+<!-- LM_RECORD:UPLOADKIT_STALE_SOURCES_THREE_FILE_RECORD_SYNC_BEGIN -->
+## LedgerMind UploadKit stale_sources three-file record-sync
+
+record_id: LM_UPLOADKIT_STALE_SOURCES_THREE_FILE_RECORD_SYNC_v1
+recorded_utc: 2026-07-03T04:48:44.9810766Z
+status: APPLIED_RECORD_SYNC_ONLY
+mode: RECORD_SYNC_ONLY / NO_OPERATIONAL_EFFECT / NO_TASK_CHANGE / NO_RUNTIME / NO_UNLOCK / NO_ORDER / NO_TRADE / FAIL_CLOSED_REMAINS
+
+Basis:
+- LM-EOD-UploadKit-2357 LastTaskResult=3
+- Root cause: UploadKit guard stale_sources maxAgeHours=720.
+- assistant_context_pack.latest.md and assistant_context_pack.project.md were older than 720 hours.
+- LM-EOD-Report.latest.md was fresh but must be rewritten last so lwEod >= maxPack.
+
+Scope:
+- Updated exactly three record files.
+- No scripts changed.
+- No scheduled tasks changed.
+- No gates changed.
+- No runtime state changed.
+- No trading approval granted.
+
+Posture:
+NO_UNLOCK / NO_ORDER / NO_TRADE / FAIL_CLOSED_REMAINS
+<!-- LM_RECORD:UPLOADKIT_STALE_SOURCES_THREE_FILE_RECORD_SYNC_END -->
