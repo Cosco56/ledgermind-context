@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-07-15 (UTC=2026-07-15T14:32:03.5743014Z)
+## CR_DAILY v1 — 2026-07-15 (UTC=2026-07-15T14:47:03.1014591Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=True sensor=inline_probe ageSec=0 (pid=28200 session=1)
 - DATAQ: mw=OPEN dhs=PASS allow=False reason=ok
-- PRICES: ok=True ageMin=4.08448794166667 miss=0
+- PRICES: ok=True ageMin=19.0472333483333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -23,7 +23,9 @@
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=0
+- Fails24hCount=2
+  - FAIL task=LM-IBGW-WindowControl-5m rc=1 lastRunUtc=2026-07-15T14:45:01.0000000Z
+  - FAIL task=LM-ChatContextBundle-15m rc=1 lastRunUtc=2026-07-15T14:35:01.0000000Z
 
 ### Notes (manual)
 # NOTES
