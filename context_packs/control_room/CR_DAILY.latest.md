@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-07-31 (UTC=2026-07-31T14:17:03.5155464Z)
+## CR_DAILY v1 — 2026-07-31 (UTC=2026-07-31T14:32:04.0500349Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=150904 session=1)
+- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=22156 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=19.057534155 miss=0
+- PRICES: ok=True ageMin=4.04277959166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,13 +17,14 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=723.7 freePct=77.8 label=: DATA
+- C: freeGB=723.6 freePct=77.8 label=: DATA
 - D: freeGB=894.3 freePct=96.4 label=DATA
 - E: freeGB=886.5 freePct=47.6 label=LM-Data
 
 ### Tasks
 - RunningCount=6
-- Fails24hCount=0
+- Fails24hCount=1
+  - FAIL task=LM-IB-QuotesSnapshot-1m rc=2 lastRunUtc=2026-07-31T14:32:01.0000000Z
 
 ### Notes (manual)
 # NOTES
