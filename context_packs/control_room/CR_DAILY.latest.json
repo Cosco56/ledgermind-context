@@ -1,7 +1,7 @@
 {
   "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-08-23T07:17:02.9499468Z",
+  "ts_utc": "2026-08-23T07:32:03.2184059Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -14,7 +14,7 @@
   "ibgw_4002_listen_meta": {
     "source": "inline_probe",
     "source_path": null,
-    "source_generated_utc": "2026-08-23T07:17:02.9499468Z",
+    "source_generated_utc": "2026-08-23T07:32:03.2184059Z",
     "source_age_sec": 0,
     "source_state": "inline_probe",
     "sensor_value": null,
@@ -39,7 +39,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": ": DATA",
       "Size": 999215329280,
-      "SizeRemaining": 797214400512
+      "SizeRemaining": 797214228480
     },
     {
       "DriveLetter": "D",
@@ -51,7 +51,7 @@
       "DriveLetter": "E",
       "FileSystemLabel": "LM-Data",
       "Size": 1998234652672,
-      "SizeRemaining": 879767470080
+      "SizeRemaining": 879767568384
     }
   ],
   "net_realtek": {
@@ -62,18 +62,18 @@
   "power_scheme": "Power Scheme GUID: 17bccb59-a850-4fd0-b768-b162ef063876  (Ultimate Performance (LM))",
   "dataq": {
     "schema": "lm.dataq.market.v5",
-    "now_epoch_sec": 1787468144,
+    "now_epoch_sec": 1787469945,
     "market_window": "CLOSED",
     "data_health_status": "FAIL",
     "trade_ready_reason": "market_window=CLOSED",
     "inputs": {
       "bars_1m_csv": {
         "path": "C:\\ledgermind\\data\\md\\bars_1m.latest.csv",
-        "age_sec": 1940394
+        "age_sec": 1942194
       },
       "bars_1m_window_csv": {
         "path": "C:\\ledgermind\\data\\md\\bars_1m.window_30m.csv",
-        "age_sec": 1940394
+        "age_sec": 1942194
       },
       "provider_status_json": {
         "path": "C:\\ledgermind\\data\\md\\provider_status.latest.json",
@@ -81,7 +81,7 @@
       },
       "config": {
         "path": "C:\\ledgermind\\config\\dataq\\market_dataq.config.json",
-        "age_sec": 12350969
+        "age_sec": 12352770
       }
     },
     "provider": {
@@ -108,7 +108,7 @@
       "window_observed": true,
       "window_max_ts_utc": "2026-07-30T23:59:00Z",
       "window_max_ts_epoch_sec": 1785455940,
-      "window_lag_min_max": 33536.0,
+      "window_lag_min_max": 33566.0,
       "window_lag_gt2m_count": 2
     },
     "lists": {
@@ -127,11 +127,11 @@
         "AAPL"
       ]
     },
-    "updated_utc": "2026-08-23T07:16:22.2390153Z",
+    "updated_utc": "2026-08-23T07:31:21.453355Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
-      "stale_config:age_sec=12350969",
+      "stale_config:age_sec=12352770",
       "offhours_relax:ttl_bars=86400 ttl_provider=86400 gap=False",
       "provider_status_parse_error",
       "insufficient_coverage_or_quality",
@@ -145,8 +145,8 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-08-23T07:16:02.1590498Z",
-      "age_sec": 20.0,
+      "updated_utc": "2026-08-23T07:31:02.3486666Z",
+      "age_sec": 19.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
       "top_reason": "market_window!=OPEN"
@@ -156,7 +156,7 @@
     "timefmt_fix_writeatomic": "LM_POST_WRITEATOMIC_UTCZ_v1",
     "market_open_utc": "2026-08-23T13:30:00Z",
     "market_close_utc": "2026-08-23T20:00:00Z",
-    "now_utc": "2026-08-23T07:16:22Z",
+    "now_utc": "2026-08-23T07:31:21Z",
     "timefmt_fix_final": "LM_DATAQ_UTCZ_EXITFINAL_v1",
     "contract_gate": {
       "ok": true,
@@ -171,16 +171,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "A5645BEF7918C869E2F8F8E78888A01D8DB1BE89C00E3B80830804B124964F62",
-        "lw_utc": "2026-08-23T07:15:01.9497473Z",
+        "sha256": "D4D1857AB067EB0D38FB7F52FF321BB7827DEDD4C38CB16709B5A5B97DBDF8E0",
+        "lw_utc": "2026-08-23T07:30:02.0592025Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-08-23T10:14:07.6191048+03:00",
-    "generated_utc": "2026-08-23T07:14:07.6198239Z",
+    "generated_at": "2026-08-23T10:29:07.7080828+03:00",
+    "generated_utc": "2026-08-23T07:29:07.7089321Z",
     "business_date": "2026-08-23",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -189,7 +189,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-03-27.csv",
-      "age_min": 212539.0331085,
+      "age_min": 212554.03444374,
       "max_age_min": 4320.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -209,11 +209,11 @@
       "outliers": []
     },
     "reasons": [
-      "prices_stale_caution age_min=212,539.0 > max=4320"
+      "prices_stale_caution age_min=212,554.0 > max=4320"
     ]
   },
   "truth_gate": {
-    "generated_utc": "2026-08-23T07:16:12.2686066Z",
+    "generated_utc": "2026-08-23T07:31:12.4621878Z",
     "status": "pass",
     "allow_new_orders": false,
     "allow": false,
@@ -223,7 +223,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-08-23T07:17:02.8003721Z",
+    "generated_utc": "2026-08-23T07:32:02.9924367Z",
     "enabled": true,
     "status": "pass",
     "ok": true,
@@ -234,12 +234,12 @@
     "warnings": [],
     "inputs": {
       "pnl_csv": "C:\\ledgermind\\data\\tx\\history\\tx_micro_daily.pnl_from_bridge.csv",
+      "date_col": "business_date",
       "pnl_col": "pnl_usd",
-      "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json",
-      "date_col": "business_date"
+      "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json"
     },
     "thresholds": {
-      "capital_usd": 5000.0,
+      "max_recency_days": 7,
       "thresholds": {
         "min_trade_days_30d": 10,
         "max_consec_loss_days": 4,
@@ -255,28 +255,28 @@
         "max_loss_streak_days": 5,
         "max_recency_days": 4
       },
-      "max_recency_days": 7
+      "capital_usd": 5000.0
     },
     "metrics": {
-      "dd_30d": 0.0,
-      "pnl_30d": 0.0,
-      "pnl_7d_pct": 0.0,
-      "pnl_1d_pct": 0.0,
+      "recency_days": 2.439,
       "pnl_1d": 0.0,
-      "pnl_30d_pct": 0.0,
-      "dd_30d_pct": 0.0,
-      "pnl_7d": 0.0,
-      "last_dt_utc": "2026-08-20T21:00:00Z",
-      "recency_days": 2.429,
       "consec_loss_days": 0,
-      "trade_days_30d": 21
+      "pnl_30d_pct": 0.0,
+      "pnl_7d_pct": 0.0,
+      "dd_30d_pct": 0.0,
+      "last_dt_utc": "2026-08-20T21:00:00Z",
+      "pnl_30d": 0.0,
+      "pnl_1d_pct": 0.0,
+      "dd_30d": 0.0,
+      "trade_days_30d": 21,
+      "pnl_7d": 0.0
     }
   },
   "micro_live_ready": {
     "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-08-23T07:14:01.5951569Z",
-    "refreshed_utc": "2026-08-23T07:14:01.5951569Z",
+    "generated_utc": "2026-08-23T07:29:01.5912629Z",
+    "refreshed_utc": "2026-08-23T07:29:01.5912629Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -297,15 +297,14 @@
       "source_reason": null,
       "source_status": "pass",
       "source_ok": true,
-      "source_generated_utc": "08/23/2026 07:10:03",
+      "source_generated_utc": "08/23/2026 07:30:04",
       "source_reasons": null,
       "backward_compat": "existing_reasons_preserved"
     }
   },
-  "pnl_card_lwutc": "2026-08-23T07:13:22.6933634Z",
+  "pnl_card_lwutc": "2026-08-23T07:28:22.8736742Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
-    "LM-Freshness-Sentinel-1m",
     "LM-OPEN-BarsEvidence-OPEN-1m"
   ],
   "tasks_fails_24h": [
@@ -328,8 +327,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "A5645BEF7918C869E2F8F8E78888A01D8DB1BE89C00E3B80830804B124964F62",
-      "lw_utc": "2026-08-23T07:15:01.9497473Z",
+      "sha256": "D4D1857AB067EB0D38FB7F52FF321BB7827DEDD4C38CB16709B5A5B97DBDF8E0",
+      "lw_utc": "2026-08-23T07:30:02.0592025Z",
       "bytes": 1080
     }
   }
