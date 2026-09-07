@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-09-07 (UTC=2026-09-07T15:02:02.7118139Z)
+## CR_DAILY v1 — 2026-09-07 (UTC=2026-09-07T15:17:02.4822696Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=HOLIDAY dhs=FAIL allow=False reason=market_window=HOLIDAY
-- PRICES: ok=True ageMin=4.07955898 miss=0
+- PRICES: ok=True ageMin=19.09129885 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=20
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -18,12 +18,13 @@
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
 - C: freeGB=725.4 freePct=77.9 label=: DATA
-- D: freeGB=888.6 freePct=95.8 label=DATA
+- D: freeGB=888.5 freePct=95.8 label=DATA
 - E: freeGB=887.1 freePct=47.7 label=LM-Data
 
 ### Tasks
 - RunningCount=4
-- Fails24hCount=1
+- Fails24hCount=2
+  - FAIL task=LM_MD_Refresh_OPEN_1m rc=2147946720 lastRunUtc=2026-09-07T15:17:02.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-09-06T20:57:01.0000000Z
 
 ### Notes (manual)
