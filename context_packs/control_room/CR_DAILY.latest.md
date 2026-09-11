@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-09-11 (UTC=2026-09-11T10:32:02.8335430Z)
+## CR_DAILY v1 — 2026-09-11 (UTC=2026-09-11T10:47:04.8432770Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=4.0906752 miss=0
+- PRICES: ok=True ageMin=14.1189906516667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,13 +17,20 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=730 freePct=78.4 label=: DATA
+- C: freeGB=729.5 freePct=78.4 label=: DATA
 - D: freeGB=888 freePct=95.7 label=DATA
 - E: freeGB=885.5 freePct=47.6 label=LM-Data
 
 ### Tasks
-- RunningCount=3
-- Fails24hCount=1
+- RunningCount=6
+- Fails24hCount=8
+  - FAIL task=LM-DataQ-ContractGate-5m rc=267014 lastRunUtc=2026-09-11T10:45:02.0000000Z
+  - FAIL task=LM-ControlRoom-Build-5m rc=267014 lastRunUtc=2026-09-11T10:45:01.0000000Z
+  - FAIL task=LM-DataQ-PricesTruth-Refresh-5m rc=267014 lastRunUtc=2026-09-11T10:45:01.0000000Z
+  - FAIL task=LM-TX-Attrib-Latency-5m rc=267014 lastRunUtc=2026-09-11T10:45:01.0000000Z
+  - FAIL task=LM-ControlRoom-PaperJson-5m rc=2147943515 lastRunUtc=2026-09-11T10:44:01.0000000Z
+  - FAIL task=LM-IBGW-SessionGuard-5m rc=2147943515 lastRunUtc=2026-09-11T10:44:01.0000000Z
+  - FAIL task=LM-TXMicro-OrdersToTradeDay-5m rc=2147943515 lastRunUtc=2026-09-11T10:44:01.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-09-10T20:57:01.0000000Z
 
 ### Notes (manual)
