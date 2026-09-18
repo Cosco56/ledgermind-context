@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-09-18 (UTC=2026-09-18T18:02:03.2080294Z)
+## CR_DAILY v1 — 2026-09-18 (UTC=2026-09-18T18:17:02.6504950Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=81648 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=4.13949468666667 miss=0
+- PRICES: ok=True ageMin=19.105944725 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
