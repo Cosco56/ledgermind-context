@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-09-18 (UTC=2026-09-18T16:02:03.9061878Z)
+## CR_DAILY v1 — 2026-09-18 (UTC=2026-09-18T16:17:04.1607485Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=75724 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=4.10388619333333 miss=0
+- PRICES: ok=True ageMin=19.100525095 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -22,9 +22,9 @@
 - E: freeGB=884.7 freePct=47.5 label=LM-Data
 
 ### Tasks
-- RunningCount=6
+- RunningCount=5
 - Fails24hCount=2
-  - FAIL task=LM-IB-QuotesSnapshot-1m rc=2 lastRunUtc=2026-09-18T16:02:01.0000000Z
+  - FAIL task=LM-IB-QuotesSnapshot-1m rc=2 lastRunUtc=2026-09-18T16:17:01.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-09-17T20:57:01.0000000Z
 
 ### Notes (manual)
