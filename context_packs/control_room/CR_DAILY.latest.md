@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-10-14 (UTC=2026-10-14T16:17:03.1489402Z)
+## CR_DAILY v1 — 2026-10-14 (UTC=2026-10-14T16:32:02.5970868Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=121648 session=1)
+- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=122192 session=1)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=17.7038480133333 miss=0
+- PRICES: ok=True ageMin=2.67404132833333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,7 +17,7 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=710.7 freePct=76.4 label=: DATA
+- C: freeGB=710.5 freePct=76.3 label=: DATA
 - D: freeGB=883 freePct=95.2 label=DATA
 - E: freeGB=887.2 freePct=47.7 label=LM-Data
 
