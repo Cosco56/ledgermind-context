@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-03 (UTC=2026-11-03T04:02:03.4581682Z)
+## CR_DAILY v1 — 2026-11-03 (UTC=2026-11-03T04:17:03.2845683Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=316024.148478555 miss=0
+- PRICES: ok=True ageMin=316039.190067938 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -23,7 +23,8 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=1
+- Fails24hCount=2
+  - FAIL task=LM-DataQ-ContractGate-5m rc=2 lastRunUtc=2026-11-03T04:15:01.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-11-02T21:57:01.0000000Z
 
 ### Notes (manual)
@@ -162,7 +163,7 @@ Posture preserved: NO_UNLOCK / NO_TRADE / NOWRITE required / allow_new_trades=fa
 D10 remains governance milestone only, not unlock and not trading permission.
 ```
 
-DATAQ_CONTRACT ok=True status=pass missing=0 suffixUS=0 dup=0
+DATAQ_CONTRACT ok=False status=fail missing=1 suffixUS=0 dup=0
 
 <!-- LM_RECORD:DATAQ_OPEN_GAP_FALSE_FAIL_CLOSEOUT_BEGIN -->
 ## LedgerMind DataQ OPEN Gap False-Fail Closeout — Record Repair
