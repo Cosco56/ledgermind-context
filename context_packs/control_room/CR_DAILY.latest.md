@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-13 (UTC=2026-11-13T06:02:03.6154780Z)
+## CR_DAILY v1 — 2026-11-13 (UTC=2026-11-13T06:17:02.7335932Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
-- IBGW_RUNNING=True 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid=18340 session=0)
+- IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=0.01417244 miss=0
+- PRICES: ok=True ageMin=13.5847506933333 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -17,18 +17,15 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=698.9 freePct=75.1 label=: DATA
+- C: freeGB=699.3 freePct=75.1 label=: DATA
 - D: freeGB=878.6 freePct=94.7 label=DATA
 - E: freeGB=886.6 freePct=47.6 label=LM-Data
 
 ### Tasks
-- RunningCount=4
-- Fails24hCount=6
+- RunningCount=3
+- Fails24hCount=3
+  - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-11-13T06:10:39.0000000Z
   - FAIL task=LM-TX-RiskEnvelope-QuickCheck-Daily rc=1 lastRunUtc=2026-11-13T06:00:01.0000000Z
-  - FAIL task=LM-Health-FullAudit-DRBadge-Inject-5m rc=267014 lastRunUtc=2026-11-13T05:58:01.0000000Z
-  - FAIL task=LM-TruthGate-Hardening-Sentinel-5m rc=267014 lastRunUtc=2026-11-13T05:58:01.0000000Z
-  - FAIL task=LM-TruthGate-Hardening-StateNorm-5m rc=267014 lastRunUtc=2026-11-13T05:58:01.0000000Z
-  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=267014 lastRunUtc=2026-11-13T05:57:57.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-11-12T21:57:01.0000000Z
 
 ### Notes (manual)
