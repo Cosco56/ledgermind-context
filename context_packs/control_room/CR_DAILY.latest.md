@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-21 (UTC=2026-11-21T19:02:02.7343463Z)
+## CR_DAILY v1 — 2026-11-21 (UTC=2026-11-21T19:17:02.7006086Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=False ageMin=342844.104234445 miss=0
+- PRICES: ok=False ageMin=342859.12100142 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=22
 - MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
@@ -23,7 +23,8 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=1
+- Fails24hCount=2
+  - FAIL task=LM-Project-Versioned-Backup-Daily rc=2147946720 lastRunUtc=2026-11-21T19:17:24.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-11-20T21:57:01.0000000Z
 
 ### Notes (manual)
