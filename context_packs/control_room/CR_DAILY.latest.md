@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-22 (UTC=2026-11-22T19:32:02.7550254Z)
+## CR_DAILY v1 — 2026-11-22 (UTC=2026-11-22T21:02:04.5415844Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=False ageMin=344314.17683818 miss=0
+- PRICES: ok=False ageMin=344405.63764612 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=21
 - MLR: ok=False source_gate=tx_micro_policy_gate source_reason=
@@ -17,13 +17,16 @@
 
 ### Volumes
 - B: freeGB=4 freePct=99.4 label=BIOS
-- C: freeGB=694.3 freePct=74.6 label=: DATA
+- C: freeGB=696.3 freePct=74.8 label=: DATA
 - D: freeGB=831.3 freePct=89.6 label=DATA
-- E: freeGB=885.5 freePct=47.6 label=LM-Data
+- E: freeGB=885.4 freePct=47.6 label=LM-Data
 
 ### Tasks
 - RunningCount=5
-- Fails24hCount=2
+- Fails24hCount=5
+  - FAIL task=LM-Ops-ObservabilitySmoke-5m rc=1 lastRunUtc=2026-11-22T20:57:57.0000000Z
+  - FAIL task=LM-Canary-Ready10D-Daily rc=1 lastRunUtc=2026-11-22T20:55:40.0000000Z
+  - FAIL task=LM-EOD-Orchestrator-OnStart rc=1 lastRunUtc=2026-11-22T20:55:40.0000000Z
   - FAIL task=LM-Project-Versioned-Backup-Daily rc=2147946720 lastRunUtc=2026-11-22T19:17:24.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=3 lastRunUtc=2026-11-21T21:57:01.0000000Z
 
