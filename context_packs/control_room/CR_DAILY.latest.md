@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-23 (UTC=2026-11-23T08:02:02.8657170Z)
+## CR_DAILY v1 — 2026-11-23 (UTC=2026-11-23T08:17:02.8776070Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=CLOSED dhs=FAIL allow=False reason=market_window=CLOSED
-- PRICES: ok=True ageMin=4.15237426 miss=0
+- PRICES: ok=True ageMin=19.1479490166667 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=20
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -23,8 +23,7 @@
 
 ### Tasks
 - RunningCount=3
-- Fails24hCount=8
-  - FAIL task=LM-TX-Live-ReadinessSuperGate-1m rc=1 lastRunUtc=2026-11-23T08:01:58.0000000Z
+- Fails24hCount=7
   - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-11-23T06:20:53.0000000Z
   - FAIL task=LM-Backup-SSD-6h-User rc=2147946720 lastRunUtc=2026-11-23T06:18:39.0000000Z
   - FAIL task=LM-ChatBundle-MicroCanaryBak-Retention-Daily rc=2147946720 lastRunUtc=2026-11-23T06:18:39.0000000Z
