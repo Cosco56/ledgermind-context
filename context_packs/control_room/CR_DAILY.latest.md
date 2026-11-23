@@ -1,10 +1,10 @@
-## CR_DAILY v1 — 2026-11-23 (UTC=2026-11-23T16:32:02.3723214Z)
+## CR_DAILY v1 — 2026-11-23 (UTC=2026-11-23T16:47:02.2283740Z)
 
 ### Core Status
 - NOWRITE_PRESENT=True
 - IBGW_RUNNING=False 4002_LISTEN=False sensor=inline_probe ageSec=0 (pid= session=)
 - DATAQ: mw=OPEN dhs=FAIL allow=False reason=data_health_status=FAIL
-- PRICES: ok=True ageMin=2.661024815 miss=0
+- PRICES: ok=True ageMin=17.673734355 miss=0
 - TRUTH: allow_new_orders=False reduce_only=True reason=nowrite_lock
 - RISK: ok=True status=pass reasons= trade_days_30d=20
 - MLR: ok=True source_gate=tx_micro_policy_gate source_reason=
@@ -24,7 +24,7 @@
 ### Tasks
 - RunningCount=5
 - Fails24hCount=7
-  - FAIL task=LM-IBGW-Start-User-OnLogon rc=1 lastRunUtc=2026-11-23T16:28:07.0000000Z
+  - FAIL task=LM-IBGW-Start-User-OnLogon rc=1 lastRunUtc=2026-11-23T16:44:07.0000000Z
   - FAIL task=LM-EOD-UploadKit-OnStart rc=3 lastRunUtc=2026-11-23T06:20:53.0000000Z
   - FAIL task=LM-ChatBundle-MicroCanaryBak-Retention-Daily rc=2147946720 lastRunUtc=2026-11-23T06:18:39.0000000Z
   - FAIL task=LM-EOD-UploadKit-2357 rc=2147946720 lastRunUtc=2026-11-23T06:18:39.0000000Z
