@@ -1,7 +1,7 @@
 {
   "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
   "schema": "lm.control_room.daily.v1",
-  "ts_utc": "2026-11-27T03:02:02.7764824Z",
+  "ts_utc": "2026-11-27T03:17:02.679502Z",
   "host": "DESKTOP-08IU10H",
   "nowrite_present": true,
   "ibgw": {
@@ -14,7 +14,7 @@
   "ibgw_4002_listen_meta": {
     "source": "inline_probe",
     "source_path": null,
-    "source_generated_utc": "2026-11-27T03:02:02.7764824Z",
+    "source_generated_utc": "2026-11-27T03:17:02.679502Z",
     "source_age_sec": 0,
     "source_state": "inline_probe",
     "sensor_value": null,
@@ -39,7 +39,7 @@
       "DriveLetter": "C",
       "FileSystemLabel": ": DATA",
       "Size": 999215329280,
-      "SizeRemaining": 751188889600
+      "SizeRemaining": 751184199680
     },
     {
       "DriveLetter": "D",
@@ -127,7 +127,7 @@
         "MSFT"
       ]
     },
-    "updated_utc": "2026-11-27T03:01:21.4510368Z",
+    "updated_utc": "2026-11-27T03:16:21.4630765Z",
     "status": "OFF",
     "allow_new_trades": false,
     "reasons": [
@@ -144,7 +144,7 @@
     "top_reason": "openready_v2|market_window!=OPEN",
     "recency_gate": {
       "path": "C:\\ledgermind\\data\\dataq\\recency\\recency_gate.latest.json",
-      "updated_utc": "2026-11-27T03:01:02.3922181Z",
+      "updated_utc": "2026-11-27T03:16:02.3120901Z",
       "age_sec": 19.0,
       "status": "OFF",
       "open_recency_ready_eff": false,
@@ -155,7 +155,7 @@
     "timefmt_fix_writeatomic": "LM_POST_WRITEATOMIC_UTCZ_v1",
     "market_open_utc": "2026-11-26T14:30:00Z",
     "market_close_utc": "2026-11-26T21:00:00Z",
-    "now_utc": "2026-11-27T03:01:21Z",
+    "now_utc": "2026-11-27T03:16:21Z",
     "timefmt_fix_final": "LM_DATAQ_UTCZ_EXITFINAL_v1",
     "contract_gate": {
       "ok": true,
@@ -170,16 +170,16 @@
       },
       "file": {
         "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-        "sha256": "3E15F9D3180E40EEE9ECDD6879C6D909417AB9FFCE69FD00857E8279411B8D22",
-        "lw_utc": "2026-11-27T03:00:02.7654229Z",
+        "sha256": "37BBBBA911D73AB8A8A460FFB2CF9799A8322B85DAB1F9D1AA8EFBED505DC0EC",
+        "lw_utc": "2026-11-27T03:15:02.7501150Z",
         "bytes": 1080
       }
     }
   },
   "prices_gate": {
     "gate": "lm.dataq.prices",
-    "generated_at": "2026-11-27T04:59:16.1268723+02:00",
-    "generated_utc": "2026-11-27T02:59:16.1275643Z",
+    "generated_at": "2026-11-27T05:14:14.4629516+02:00",
+    "generated_utc": "2026-11-27T03:14:14.4636588Z",
     "business_date": "2026-11-26",
     "market_tz": "Eastern Standard Time",
     "ok": true,
@@ -188,7 +188,7 @@
     "prices_source": {
       "mode": "snapshot_file",
       "path": "C:\\ledgermind\\data\\tx\\prices\\openclose\\openclose_2026-03-27.csv",
-      "age_min": 350524.17491433833,
+      "age_min": 350539.14706978,
       "max_age_min": 180.0,
       "seen_symbols": 3,
       "required_symbols": 3,
@@ -208,11 +208,11 @@
       "outliers": []
     },
     "reasons": [
-      "prices_stale_caution age_min=350,524.2 > max=180"
+      "prices_stale_caution age_min=350,539.1 > max=180"
     ]
   },
   "truth_gate": {
-    "generated_utc": "2026-11-27T03:01:12.3576831Z",
+    "generated_utc": "2026-11-27T03:16:12.4654935Z",
     "status": "pass",
     "allow_new_orders": false,
     "allow": false,
@@ -222,7 +222,7 @@
   },
   "risk_stop": {
     "schema": "tx_micro_risk_stop.v3",
-    "generated_utc": "2026-11-27T03:02:02.958901Z",
+    "generated_utc": "2026-11-27T03:17:02.9816814Z",
     "enabled": true,
     "status": "pass",
     "ok": true,
@@ -232,13 +232,14 @@
     "reasons": [],
     "warnings": [],
     "inputs": {
+      "pnl_csv": "C:\\ledgermind\\data\\tx\\history\\tx_micro_daily.pnl_from_bridge.csv",
       "policy": "C:\\ledgermind\\config\\tx_micro_risk_stop_policy.v3.json",
       "pnl_col": "pnl_usd",
-      "date_col": "business_date",
-      "pnl_csv": "C:\\ledgermind\\data\\tx\\history\\tx_micro_daily.pnl_from_bridge.csv"
+      "date_col": "business_date"
     },
     "thresholds": {
       "max_recency_days": 7,
+      "capital_usd": 5000.0,
       "thresholds": {
         "min_trade_days_30d": 10,
         "max_consec_loss_days": 4,
@@ -253,29 +254,28 @@
         "max_drawdown_30d_pct": 0.06,
         "max_loss_streak_days": 5,
         "max_recency_days": 4
-      },
-      "capital_usd": 5000.0
+      }
     },
     "metrics": {
-      "dd_30d_pct": 0.0,
-      "pnl_7d_pct": 0.0,
-      "pnl_1d": 0.0,
-      "last_dt_utc": "2026-11-25T22:00:00Z",
       "pnl_30d": 0.0,
-      "dd_30d": 0.0,
-      "recency_days": 1.21,
       "consec_loss_days": 0,
       "pnl_7d": 0.0,
-      "trade_days_30d": 22,
       "pnl_30d_pct": 0.0,
-      "pnl_1d_pct": 0.0
+      "last_dt_utc": "2026-11-25T22:00:00Z",
+      "pnl_1d": 0.0,
+      "trade_days_30d": 22,
+      "dd_30d_pct": 0.0,
+      "pnl_1d_pct": 0.0,
+      "dd_30d": 0.0,
+      "pnl_7d_pct": 0.0,
+      "recency_days": 1.22
     }
   },
   "micro_live_ready": {
     "marker": "LM_AUTONOMY_HARDENING_PACK_V1",
     "schema": "micro_live_ready_gate_v5",
-    "generated_utc": "2026-11-27T02:59:03.2953388Z",
-    "refreshed_utc": "2026-11-27T02:59:03.2953388Z",
+    "generated_utc": "2026-11-27T03:14:02.4948828Z",
+    "refreshed_utc": "2026-11-27T03:14:02.4948828Z",
     "host": "DESKTOP-08IU10H",
     "allow_micro_live": true,
     "ok": true,
@@ -287,7 +287,7 @@
       "policy_gate": "C:\\ledgermind\\data\\tx\\gates\\tx_micro_policy_gate.latest.json"
     },
     "meta": {
-      "pnl_card_age_min": 0.68,
+      "pnl_card_age_min": 0.67,
       "pnl_card_max_age_min": 45
     },
     "reason_meta": {
@@ -296,15 +296,16 @@
       "source_reason": null,
       "source_status": "pass",
       "source_ok": true,
-      "source_generated_utc": "11/27/2026 03:00:02",
+      "source_generated_utc": "11/27/2026 03:10:02",
       "source_reasons": null,
       "backward_compat": "existing_reasons_preserved"
     }
   },
-  "pnl_card_lwutc": "2026-11-27T02:58:22.3962752Z",
+  "pnl_card_lwutc": "2026-11-27T03:13:22.422167Z",
   "tasks_running": [
     "LM-CR-GitHubSync-15m",
-    "LM-OPEN-BarsEvidence-OPEN-1m"
+    "LM-OPEN-BarsEvidence-OPEN-1m",
+    "LM-TX-TruthGate-Eval-Writer-1m"
   ],
   "tasks_fails_24h": [
     {
@@ -326,8 +327,8 @@
     },
     "file": {
       "path": "C:\\ledgermind\\data\\lm\\quality\\gates\\dataq_contract_gate.latest.json",
-      "sha256": "3E15F9D3180E40EEE9ECDD6879C6D909417AB9FFCE69FD00857E8279411B8D22",
-      "lw_utc": "2026-11-27T03:00:02.7654229Z",
+      "sha256": "37BBBBA911D73AB8A8A460FFB2CF9799A8322B85DAB1F9D1AA8EFBED505DC0EC",
+      "lw_utc": "2026-11-27T03:15:02.7501150Z",
       "bytes": 1080
     }
   }
